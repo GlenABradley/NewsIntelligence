@@ -215,6 +215,115 @@ async def health_check():
 async def root():
     return {"message": "Truth Detector API v1.0"}
 
+@api_router.post("/analyze-urls", response_model=TruthAnalysisResult)
+async def analyze_urls(batch: URLBatch):
+    """
+    Extract content from URLs and analyze for truth detection
+    
+    This endpoint:
+    1. Extracts content from provided URLs
+    2. Converts extracted content to claims
+    3. Runs truth detection analysis
+    4. Returns comprehensive results
+    """
+    try:
+        logger.info(f"Processing URL analysis for {len(batch.urls)} URLs")
+        
+        # Extract content from all URLs
+        extracted_claims = []
+        extraction_errors = []
+        
+        for i, url_input in enumerate(batch.urls):
+            try:
+                content_result = extract_content_from_url(url_input.url)
+                
+                if content_result["success"]:
+                    # Create claim from extracted content
+                    claim_text = f"{content_result['title']}\n\n{content_result['content']}"
+                    
+                    # Truncate if too long (keep within 6500 chars for safety)
+                    if len(claim_text) > 6500:
+                        claim_text = claim_text[:6500] + "..."
+                    
+                    extracted_claims.append({
+                        'text': claim_text,
+                        'doc_id': i,
+                        'source_type': url_input.source_type,
+                        'source_url': url_input.url,
+                        'source_domain': content_result['source_domain']
+                    })
+                    
+                    logger.info(f"Successfully extracted content from {content_result['source_domain']}")
+                else:
+                    extraction_errors.append(f"Failed to extract from {url_input.url}: {content_result['error']}")
+                    
+            except Exception as e:
+                extraction_errors.append(f"Error processing {url_input.url}: {str(e)}")
+        
+        if not extracted_claims:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"No content could be extracted from any URLs. Errors: {'; '.join(extraction_errors)}"
+            )
+        
+        # Perform truth analysis on extracted claims
+        results = analyze_truth_claims(extracted_claims)
+        
+        # Add extraction metadata to results
+        results['extracted_claims_count'] = len(extracted_claims)
+        results['extraction_errors'] = extraction_errors
+        
+        # Create result object
+        analysis_result = TruthAnalysisResult(
+            id=batch.analysis_id or str(uuid.uuid4()),
+            total_claims=results.get('total_claims', 0),
+            total_clusters=results.get('total_clusters', 0),
+            contradictions=results.get('contradictions', 0),
+            probable_truths=results.get('probable_truths', []),
+            inconsistencies=results.get('inconsistencies', []),
+            narrative=results.get('narrative', ''),
+            summary=results.get('summary', ''),
+            clusters=results.get('clusters', []),
+            error=results.get('error')
+        )
+        
+        # Store in database
+        await db.url_analyses.insert_one(analysis_result.dict())
+        
+        logger.info(f"URL analysis completed with ID: {analysis_result.id}")
+        return analysis_result
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error in URL analysis: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"URL analysis failed: {str(e)}")
+
+@api_router.post("/extract-url")
+async def extract_single_url(url_input: URLInput):
+    """
+    Extract and preview content from a single URL
+    Useful for testing URL extraction before analysis
+    """
+    try:
+        logger.info(f"Extracting content from single URL: {url_input.url}")
+        
+        content_result = extract_content_from_url(url_input.url)
+        
+        return {
+            "url": url_input.url,
+            "success": content_result["success"],
+            "title": content_result.get("title", ""),
+            "content_preview": content_result.get("content", "")[:500] + "..." if content_result.get("content") else "",
+            "content_length": len(content_result.get("content", "")),
+            "source_domain": content_result.get("source_domain", ""),
+            "error": content_result.get("error")
+        }
+        
+    except Exception as e:
+        logger.error(f"Error extracting single URL: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"URL extraction failed: {str(e)}")
+
 @api_router.post("/url-batch", response_model=URLBatch)
 async def process_url_batch(batch: URLBatch):
     """Process a batch of URLs for content extraction"""
