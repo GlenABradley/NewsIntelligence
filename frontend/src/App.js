@@ -15,6 +15,10 @@ const TruthDetector = () => {
   const [activeTab, setActiveTab] = useState("input");
   const [inputMode, setInputMode] = useState("text"); // "text" or "url"
 
+  const addClaim = () => {
+    setClaims([...claims, { text: "", source_type: "unknown" }]);
+  };
+
   const addUrl = () => {
     setUrls([...urls, { url: "", source_type: "news" }]);
   };
