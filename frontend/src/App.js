@@ -277,74 +277,174 @@ const TruthDetector = () => {
           {activeTab === "input" && (
             <div className="space-y-6">
               <div className="flex justify-between items-center">
-                <h2 className="text-2xl font-semibold">Add Claims</h2>
+                <h2 className="text-2xl font-semibold">Add Content</h2>
+                <div className="flex space-x-4">
+                  <button
+                    onClick={runDemo}
+                    disabled={loading}
+                    className="bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 disabled:opacity-50"
+                  >
+                    {loading ? "Running..." : "Run Demo"}
+                  </button>
+                </div>
+              </div>
+
+              {/* Input Mode Toggle */}
+              <div className="flex space-x-1 mb-6 bg-gray-100 p-1 rounded-lg">
                 <button
-                  onClick={runDemo}
-                  disabled={loading}
-                  className="bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-600 disabled:opacity-50"
+                  onClick={() => setInputMode("text")}
+                  className={`px-4 py-2 rounded-md font-medium transition-all ${
+                    inputMode === "text"
+                      ? "bg-blue-500 text-white shadow-md"
+                      : "bg-transparent text-gray-700 hover:bg-gray-200"
+                  }`}
                 >
-                  {loading ? "Running..." : "Run Demo"}
+                  📝 Text Input
+                </button>
+                <button
+                  onClick={() => setInputMode("url")}
+                  className={`px-4 py-2 rounded-md font-medium transition-all ${
+                    inputMode === "url"
+                      ? "bg-blue-500 text-white shadow-md"
+                      : "bg-transparent text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  🔗 URL Input
                 </button>
               </div>
 
-              <div className="space-y-4">
-                {claims.map((claim, index) => (
-                  <div key={index} className="border rounded-lg p-4">
-                    <div className="flex justify-between items-start mb-2">
-                      <label className="text-sm font-medium text-gray-700">
-                        Claim {index + 1}
-                      </label>
-                      {claims.length > 1 && (
-                        <button
-                          onClick={() => removeClaim(index)}
-                          className="text-red-500 hover:text-red-700"
-                        >
-                          ×
-                        </button>
-                      )}
-                    </div>
-                    <textarea
-                      value={claim.text}
-                      onChange={(e) => updateClaim(index, "text", e.target.value)}
-                      placeholder="Enter your claim here..."
-                      className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      rows="3"
-                    />
-                    <div className="mt-2">
-                      <label className="text-sm font-medium text-gray-700 block mb-1">
-                        Source Type
-                      </label>
-                      <select
-                        value={claim.source_type}
-                        onChange={(e) => updateClaim(index, "source_type", e.target.value)}
+              {/* Text Input Mode */}
+              {inputMode === "text" && (
+                <div className="space-y-4">
+                  <h3 className="text-lg font-medium">Manual Text Input</h3>
+                  {claims.map((claim, index) => (
+                    <div key={index} className="border rounded-lg p-4">
+                      <div className="flex justify-between items-start mb-2">
+                        <label className="text-sm font-medium text-gray-700">
+                          Claim {index + 1}
+                        </label>
+                        {claims.length > 1 && (
+                          <button
+                            onClick={() => removeClaim(index)}
+                            className="text-red-500 hover:text-red-700"
+                          >
+                            ×
+                          </button>
+                        )}
+                      </div>
+                      <textarea
+                        value={claim.text}
+                        onChange={(e) => updateClaim(index, "text", e.target.value)}
+                        placeholder="Enter your claim here... (up to 7000 characters)"
                         className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      >
-                        {sourceTypes.map(type => (
-                          <option key={type} value={type}>
-                            {type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}
-                          </option>
-                        ))}
-                      </select>
+                        rows="4"
+                      />
+                      <div className="mt-2 text-sm text-gray-500">
+                        {claim.text.length}/7000 characters
+                      </div>
+                      <div className="mt-2">
+                        <label className="text-sm font-medium text-gray-700 block mb-1">
+                          Source Type
+                        </label>
+                        <select
+                          value={claim.source_type}
+                          onChange={(e) => updateClaim(index, "source_type", e.target.value)}
+                          className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                          {sourceTypes.map(type => (
+                            <option key={type} value={type}>
+                              {type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
                     </div>
+                  ))}
+                  
+                  <div className="flex justify-between">
+                    <button
+                      onClick={addClaim}
+                      className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
+                    >
+                      Add Another Claim
+                    </button>
+                    <button
+                      onClick={analyzeClaims}
+                      disabled={loading}
+                      className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+                    >
+                      {loading ? "Analyzing..." : "Analyze Claims"}
+                    </button>
                   </div>
-                ))}
-              </div>
+                </div>
+              )}
 
-              <div className="flex justify-between">
-                <button
-                  onClick={addClaim}
-                  className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
-                >
-                  Add Another Claim
-                </button>
-                <button
-                  onClick={analyzeClaims}
-                  disabled={loading}
-                  className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 disabled:opacity-50"
-                >
-                  {loading ? "Analyzing..." : "Analyze Claims"}
-                </button>
-              </div>
+              {/* URL Input Mode */}
+              {inputMode === "url" && (
+                <div className="space-y-4">
+                  <h3 className="text-lg font-medium">URL-Based Input</h3>
+                  <p className="text-sm text-gray-600">
+                    Add URLs to automatically extract and analyze article content. Perfect for news articles, blog posts, and web content.
+                  </p>
+                  
+                  {urls.map((urlInput, index) => (
+                    <div key={index} className="border rounded-lg p-4">
+                      <div className="flex justify-between items-start mb-2">
+                        <label className="text-sm font-medium text-gray-700">
+                          URL {index + 1}
+                        </label>
+                        {urls.length > 1 && (
+                          <button
+                            onClick={() => removeUrl(index)}
+                            className="text-red-500 hover:text-red-700"
+                          >
+                            ×
+                          </button>
+                        )}
+                      </div>
+                      <input
+                        type="url"
+                        value={urlInput.url}
+                        onChange={(e) => updateUrl(index, "url", e.target.value)}
+                        placeholder="https://example.com/article"
+                        className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      />
+                      <div className="mt-2">
+                        <label className="text-sm font-medium text-gray-700 block mb-1">
+                          Source Type
+                        </label>
+                        <select
+                          value={urlInput.source_type}
+                          onChange={(e) => updateUrl(index, "source_type", e.target.value)}
+                          className="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        >
+                          {sourceTypes.map(type => (
+                            <option key={type} value={type}>
+                              {type.charAt(0).toUpperCase() + type.slice(1).replace('_', ' ')}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                    </div>
+                  ))}
+                  
+                  <div className="flex justify-between">
+                    <button
+                      onClick={addUrl}
+                      className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
+                    >
+                      Add Another URL
+                    </button>
+                    <button
+                      onClick={analyzeUrls}
+                      disabled={loading}
+                      className="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 disabled:opacity-50"
+                    >
+                      {loading ? "Extracting & Analyzing..." : "Analyze URLs"}
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
