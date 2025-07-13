@@ -60,7 +60,7 @@ const TruthDetector = () => {
       setResults(response.data);
       setActiveTab("results");
     } catch (err) {
-      setError(err.response?.data?.detail || "Failed to analyze claims");
+      setError(err.response?.data?.detail || err.message || "Failed to analyze claims");
     } finally {
       setLoading(false);
     }
