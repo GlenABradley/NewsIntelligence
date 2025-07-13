@@ -8,10 +8,12 @@ const API = `${BACKEND_URL}/api`;
 
 const TruthDetector = () => {
   const [claims, setClaims] = useState([{ text: "", source_type: "unknown" }]);
+  const [urls, setUrls] = useState([{ url: "", source_type: "news" }]);
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState("input");
+  const [inputMode, setInputMode] = useState("text"); // "text" or "url"
 
   const addClaim = () => {
     setClaims([...claims, { text: "", source_type: "unknown" }]);
