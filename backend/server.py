@@ -62,8 +62,13 @@ class StatusCheck(BaseModel):
     client_name: str
     timestamp: datetime = Field(default_factory=datetime.utcnow)
 
-class StatusCheckCreate(BaseModel):
-    client_name: str
+class URLInput(BaseModel):
+    url: str = Field(..., description="URL to extract content from")
+    source_type: str = Field(default="news", description="Source type for the extracted content")
+
+class URLBatch(BaseModel):
+    urls: List[URLInput] = Field(..., min_items=1, max_items=20, description="List of URLs to analyze")
+    analysis_id: Optional[str] = Field(default=None, description="Optional analysis ID for tracking")
 
 # Truth Detection Endpoints
 @api_router.post("/truth-analyze", response_model=TruthAnalysisResult)
