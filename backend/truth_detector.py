@@ -188,16 +188,12 @@ class TruthDetectorCore:
             
             # Define semantic groups based on keywords
             semantic_groups = {
-                'earth_round': ['earth', 'round', 'sphere', 'globe', 'orbits', 'sun'],
-                'earth_flat': ['earth', 'flat', 'stationary'],
-                'climate_human': ['climate', 'change', 'human', 'activities', 'man-made', 'warming'],
-                'climate_natural': ['climate', 'change', 'natural', 'phenomenon'],
-                'vaccine_safe': ['vaccine', 'safe', 'effective', 'proven', 'profile'],
-                'vaccine_dangerous': ['vaccine', 'dangerous', 'harmful'],
-                'moon_real': ['moon', 'landing', 'real', 'historical', 'achievement'],
-                'moon_fake': ['moon', 'landing', 'staged', 'studio'],
+                'earth_shape': ['earth', 'round', 'sphere', 'globe', 'orbits', 'sun', 'flat', 'stationary'],
+                'climate': ['climate', 'change', 'human', 'activities', 'man-made', 'warming', 'natural', 'phenomenon'],
+                'vaccines': ['vaccine', 'safe', 'effective', 'proven', 'profile', 'dangerous', 'harmful'],
+                'moon_landing': ['moon', 'landing', 'real', 'historical', 'achievement', 'staged', 'studio'],
                 'water_science': ['water', 'boils', 'freezes', 'temperature'],
-                'health_facts': ['exercise', 'health', 'improves']
+                'health': ['exercise', 'health', 'improves', 'physical', 'activity', 'wellness', 'working', 'out', 'benefits', 'body']
             }
             
             # First, try to group claims by semantic similarity
@@ -210,7 +206,7 @@ class TruthDetectorCore:
                     claim_text = claim.text.lower()
                     # Check if claim contains keywords from this group
                     keyword_matches = sum(1 for keyword in keywords if keyword in claim_text)
-                    if keyword_matches >= 2:  # At least 2 keywords match
+                    if keyword_matches >= 1:  # At least 1 keyword match (more lenient)
                         group_claims.append(claim)
                         assigned_claims.add(i)
                 
