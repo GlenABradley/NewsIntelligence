@@ -499,11 +499,11 @@ class TruthDetectorCore:
         serialized = []
         for cluster in clusters:
             cluster_data = {
-                'id': cluster.id,
+                'id': int(cluster.id),
                 'member_count': len(cluster.members),
-                'support': round(cluster.support, 2),
-                'coherence_score': round(cluster.coherence_score, 3),
-                'is_contradiction': cluster.is_contradiction,
+                'support': float(cluster.support),
+                'coherence_score': float(cluster.coherence_score),
+                'is_contradiction': bool(cluster.is_contradiction),
                 'claims': [claim.text for claim in cluster.members[:5]]  # First 5 claims
             }
             
@@ -511,7 +511,7 @@ class TruthDetectorCore:
                 cluster_data['variants'] = [
                     {
                         'description': variant.value_desc[:100] + ("..." if len(variant.value_desc) > 100 else ""),
-                        'support': round(variant.support, 2),
+                        'support': float(variant.support),
                         'claim_count': len(variant.claims)
                     }
                     for variant in cluster.variants
