@@ -232,47 +232,107 @@ class TruthDetectorCore:
                     
                 cluster_emb = embeddings[cluster_indices]
                 
-                # Sub-clustering to find variants
-                sub_clustering = AgglomerativeClustering(
-                    n_clusters=None,
-                    metric='cosine',
-                    linkage='average',
-                    distance_threshold=0.3
-                )
+                # Check for source diversity as a contradiction indicator
+                sources = set(claim.source_type for claim in cluster.members)
                 
-                sub_labels = sub_clustering.fit_predict(cluster_emb)
-                
-                # Group variants
-                variants = {}
-                for i, label in enumerate(sub_labels):
-                    claim = cluster.members[i]
-                    if label not in variants:
-                        variants[label] = {
-                            'claims': [],
-                            'value_desc': claim.text,
-                            'source_diversity': set()
-                        }
-                    variants[label]['claims'].append(claim)
-                    variants[label]['source_diversity'].add(claim.source_type)
-                
-                # Check for contradictions
-                if len(variants) > 1:
-                    cluster.is_contradiction = True
-                    cluster.variants = []
+                # If we have multiple sources in the same cluster, it's likely a contradiction
+                if len(sources) > 1:
+                    # Look for opposing source types
+                    opposing_sources = [
+                        ('science', 'conspiracy'),
+                        ('medical', 'anti-vaccine'),
+                        ('expert', 'conspiracy'),
+                        ('government', 'conspiracy'),
+                        ('academic', 'conspiracy'),
+                        ('history', 'conspiracy')
+                    ]
                     
-                    for variant_data in variants.values():
-                        variant = Variant(
-                            variant_data['value_desc'],
-                            variant_data['claims']
-                        )
-                        variant.calculate_support()
-                        cluster.variants.append(variant)
+                    has_opposing_sources = False
+                    for source1, source2 in opposing_sources:
+                        if source1 in sources and source2 in sources:
+                            has_opposing_sources = True
+                            break
                     
-                    # Find truth variant (highest support)
-                    if cluster.variants:
-                        cluster.truth_variant = max(cluster.variants, key=lambda x: x.support)
+                    if has_opposing_sources or len(sources) >= 3:
+                        # This is likely a contradiction - create variants by source type
+                        cluster.is_contradiction = True
+                        variants = {}
                         
-                    logger.info(f"Cluster {cluster.id} contains {len(cluster.variants)} contradictory variants")
+                        for claim in cluster.members:
+                            source_key = claim.source_type
+                            if source_key not in variants:
+                                variants[source_key] = {
+                                    'claims': [],
+                                    'value_desc': claim.text,
+                                    'source_diversity': set()
+                                }
+                            variants[source_key]['claims'].append(claim)
+                            variants[source_key]['source_diversity'].add(claim.source_type)
+                        
+                        # Create variants
+                        cluster.variants = []
+                        for source_key, variant_data in variants.items():
+                            variant = Variant(
+                                variant_data['value_desc'],
+                                variant_data['claims']
+                            )
+                            variant.calculate_support()
+                            cluster.variants.append(variant)
+                        
+                        # Find truth variant (highest support)
+                        if cluster.variants:
+                            cluster.truth_variant = max(cluster.variants, key=lambda x: x.support)
+                            
+                        logger.info(f"Cluster {cluster.id} detected as contradiction with {len(cluster.variants)} variants from sources: {sources}")
+                        continue
+                
+                # Alternative: Sub-clustering approach for more subtle contradictions
+                if len(cluster.members) > 2:
+                    sub_clustering = AgglomerativeClustering(
+                        n_clusters=None,
+                        metric='cosine',
+                        linkage='average',
+                        distance_threshold=0.4  # More strict for sub-clustering
+                    )
+                    
+                    sub_labels = sub_clustering.fit_predict(cluster_emb)
+                    
+                    # Group variants by sub-clusters
+                    variants = {}
+                    for i, label in enumerate(sub_labels):
+                        claim = cluster.members[i]
+                        if label not in variants:
+                            variants[label] = {
+                                'claims': [],
+                                'value_desc': claim.text,
+                                'source_diversity': set()
+                            }
+                        variants[label]['claims'].append(claim)
+                        variants[label]['source_diversity'].add(claim.source_type)
+                    
+                    # Check if we have meaningful variants
+                    if len(variants) > 1:
+                        # Check if variants have different source types or significant text differences
+                        variant_sources = [list(v['source_diversity']) for v in variants.values()]
+                        has_different_sources = any(s1 != s2 for i, s1 in enumerate(variant_sources) for s2 in variant_sources[i+1:])
+                        
+                        if has_different_sources or len(variants) >= 3:
+                            cluster.is_contradiction = True
+                            cluster.variants = []
+                            
+                            for variant_data in variants.values():
+                                variant = Variant(
+                                    variant_data['value_desc'],
+                                    variant_data['claims']
+                                )
+                                variant.calculate_support()
+                                cluster.variants.append(variant)
+                            
+                            # Find truth variant
+                            if cluster.variants:
+                                cluster.truth_variant = max(cluster.variants, key=lambda x: x.support)
+                                
+                            logger.info(f"Cluster {cluster.id} detected as subtle contradiction with {len(cluster.variants)} variants")
                     
             except Exception as e:
                 logger.warning(f"Error detecting contradictions in cluster {cluster.id}: {str(e)}")
