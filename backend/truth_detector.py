@@ -8,6 +8,7 @@ from scipy.signal import coherence
 from typing import List, Dict, Tuple, Optional
 import logging
 import warnings
+import json
 
 # Suppress sklearn warnings for cleaner output
 warnings.filterwarnings('ignore')
