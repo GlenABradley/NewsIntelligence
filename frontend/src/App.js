@@ -137,7 +137,7 @@ const TruthDetector = () => {
         )}
 
         {/* Inconsistencies */}
-        {inconsistencies.length > 0 && (
+        {inconsistencies && inconsistencies.length > 0 && (
           <div className="bg-red-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mb-4 text-red-800">Detected Inconsistencies</h3>
             <div className="space-y-3">
@@ -145,10 +145,10 @@ const TruthDetector = () => {
                 <div key={index} className="bg-white p-4 rounded border-l-4 border-red-500">
                   <div className="font-medium text-red-800 mb-2">Conflicting Claims</div>
                   <div className="space-y-2">
-                    {inconsistency.variants.map((variant, vIndex) => (
+                    {inconsistency.variants && inconsistency.variants.map((variant, vIndex) => (
                       <div key={vIndex} className="text-sm">
                         <span className="font-medium">{variant.description}</span>
-                        <span className="ml-2 text-gray-600">(Support: {variant.support.toFixed(1)})</span>
+                        <span className="ml-2 text-gray-600">(Support: {variant.support ? variant.support.toFixed(1) : 'N/A'})</span>
                       </div>
                     ))}
                   </div>
