@@ -383,7 +383,7 @@ class TruthDetectorCore:
                         })
                     
                     inconsistencies.append({
-                        'cluster_id': cluster.id,
+                        'cluster_id': int(cluster.id),
                         'variants': variants_info,
                         'truth_variant': cluster.truth_variant.value_desc[:100] + ("..." if len(cluster.truth_variant.value_desc) > 100 else "") if cluster.truth_variant else None
                     })
