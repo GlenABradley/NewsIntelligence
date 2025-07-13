@@ -141,20 +141,25 @@ class TruthDetectorCore:
             raise ValueError(f"Failed to embed claims: {str(e)}")
 
     def cluster_embeddings(self, embeddings: np.ndarray, claims: List[Claim]) -> List[Cluster]:
-        """Enhanced clustering with adaptive thresholding"""
+        """Enhanced clustering with better similarity detection"""
         if len(claims) == 0:
             return []
         
         try:
-            # More aggressive clustering to capture similar concepts
+            # More aggressive clustering to capture semantic similarity
+            # Use a higher threshold to group similar claims together
+            base_threshold = 0.8  # Higher threshold for better grouping
+            
+            # Adjust threshold based on dataset size and diversity
             unique_sources = len(set(claim.source_type for claim in claims))
-            adaptive_threshold = max(0.3, self.distance_threshold - (0.1 * unique_sources / len(claims)))
+            if unique_sources > 3:  # More diverse sources = slightly looser clustering
+                base_threshold = 0.75
             
             clustering = AgglomerativeClustering(
                 n_clusters=None,
                 metric='cosine',
                 linkage='average',
-                distance_threshold=adaptive_threshold
+                distance_threshold=base_threshold
             )
             
             labels = clustering.fit_predict(embeddings)
@@ -169,10 +174,15 @@ class TruthDetectorCore:
             
             clusters = list(cluster_dict.values())
             
+            # Log clustering results for debugging
+            logger.info(f"Clustering results: {len(claims)} claims → {len(clusters)} clusters")
+            for cluster in clusters:
+                if len(cluster.members) > 1:
+                    logger.info(f"Cluster {cluster.id} has {len(cluster.members)} similar claims")
+            
             # Validate clusters
             valid_clusters = [cluster for cluster in clusters if cluster.validate()]
             
-            logger.info(f"Created {len(valid_clusters)} valid clusters from {len(claims)} claims")
             return valid_clusters
             
         except Exception as e:
