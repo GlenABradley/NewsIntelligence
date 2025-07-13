@@ -390,10 +390,10 @@ class TruthDetectorCore:
                     
                 elif cluster.support > 1.0:  # High support threshold
                     probable_truths.append({
-                        'cluster_id': cluster.id,
+                        'cluster_id': int(cluster.id),
                         'claim': cluster.members[0].text,
-                        'support': round(cluster.support, 2),
-                        'coherence': round(cluster.coherence_score, 3),
+                        'support': float(cluster.support),
+                        'coherence': float(cluster.coherence_score),
                         'sources': len(set(c.source_type for c in cluster.members)),
                         'document_count': len(set(c.doc_id for c in cluster.members))
                     })
