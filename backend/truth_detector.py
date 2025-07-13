@@ -140,9 +140,9 @@ class TruthDetectorCore:
             return []
         
         try:
-            # Adaptive distance threshold based on data diversity
+            # More aggressive clustering to capture similar concepts
             unique_sources = len(set(claim.source_type for claim in claims))
-            adaptive_threshold = self.distance_threshold + (0.1 * unique_sources / len(claims))
+            adaptive_threshold = max(0.3, self.distance_threshold - (0.1 * unique_sources / len(claims)))
             
             clustering = AgglomerativeClustering(
                 n_clusters=None,
