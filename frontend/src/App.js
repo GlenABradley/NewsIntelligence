@@ -203,7 +203,9 @@ const TruthDetector = () => {
         {/* Error Display */}
         {error && (
           <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
-            <div className="text-red-800">{error}</div>
+            <div className="text-red-800">
+              {typeof error === 'string' ? error : JSON.stringify(error)}
+            </div>
           </div>
         )}
 
