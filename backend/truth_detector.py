@@ -378,7 +378,7 @@ class TruthDetectorCore:
                     for variant in cluster.variants:
                         variants_info.append({
                             'description': variant.value_desc[:100] + ("..." if len(variant.value_desc) > 100 else ""),
-                            'support': round(variant.support, 2),
+                            'support': float(variant.support),
                             'claim_count': len(variant.claims)
                         })
                     
