@@ -91,9 +91,9 @@ class Cluster:
 class TruthDetectorCore:
     """Core truth detection engine with improved algorithms"""
     
-    def __init__(self, min_cluster_size: int = 1, distance_threshold: float = 0.5):
+    def __init__(self, min_cluster_size: int = 1, distance_threshold: float = 0.7):
         self.min_cluster_size = min_cluster_size
-        self.distance_threshold = distance_threshold
+        self.distance_threshold = distance_threshold  # Increased for better clustering
         self.vectorizer = None
         self.embeddings = None
         
