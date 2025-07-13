@@ -104,20 +104,26 @@ class TruthDetectorCore:
             return np.array([])
         
         try:
-            # Enhanced text preprocessing
+            # Enhanced text preprocessing - focus on semantic content
             enhanced_texts = []
             for claim in claims:
-                # Add source type context
-                text = f"[{claim.source_type}] {claim.text}" if claim.source_type != "unknown" else claim.text
+                # Clean and normalize text
+                text = claim.text.lower().strip()
+                # Remove some noise words that might interfere with similarity
+                text = text.replace("the ", "").replace("is ", "").replace("are ", "")
+                # Add source type context but make it less dominant
+                if claim.source_type != "unknown":
+                    text = f"{text} [{claim.source_type}]"
                 enhanced_texts.append(text)
             
-            # Initialize TF-IDF with better parameters
+            # Initialize TF-IDF with parameters optimized for claim similarity
             self.vectorizer = TfidfVectorizer(
-                max_features=5000,
+                max_features=1000,  # Reduced for better focus
                 min_df=1,
-                max_df=0.9,
+                max_df=0.8,  # More restrictive to avoid common words
                 stop_words='english',
-                ngram_range=(1, 2)
+                ngram_range=(1, 3),  # Include more n-grams for better similarity
+                token_pattern=r'\b[A-Za-z]{2,}\b'  # Only alphabetic tokens
             )
             
             embeddings = self.vectorizer.fit_transform(enhanced_texts).toarray()
