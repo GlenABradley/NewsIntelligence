@@ -54,12 +54,19 @@ const TruthDetector = () => {
         return;
       }
 
+      // Allow single claims with a warning
+      if (validClaims.length === 1) {
+        console.log("Single claim analysis - limited functionality");
+      }
+
       const response = await axios.post(`${API}/truth-analyze`, {
         claims: validClaims
       });
+      
       setResults(response.data);
       setActiveTab("results");
     } catch (err) {
+      console.error("Analysis error:", err);
       setError(err.response?.data?.detail || err.message || "Failed to analyze claims");
     } finally {
       setLoading(false);
