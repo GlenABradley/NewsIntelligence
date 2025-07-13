@@ -215,6 +215,17 @@ async def health_check():
 async def root():
     return {"message": "Truth Detector API v1.0"}
 
+@api_router.post("/url-batch", response_model=URLBatch)
+async def process_url_batch(batch: URLBatch):
+    """Process a batch of URLs for content extraction"""
+    try:
+        # Store the batch request
+        await db.url_batches.insert_one(batch.dict())
+        return batch
+    except Exception as e:
+        logger.error(f"Error processing URL batch: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 # Include the router in the main app
 app.include_router(api_router)
 
