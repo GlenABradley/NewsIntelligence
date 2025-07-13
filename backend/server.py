@@ -154,18 +154,31 @@ async def run_truth_demo():
     Run a demonstration of the truth detector with sample claims
     """
     try:
-        # Sample claims for demonstration
+        # Enhanced demo claims with better contradiction examples
         demo_claims = [
-            {"text": "The Earth is round and orbits the Sun", "source_type": "science"},
-            {"text": "The Earth is flat and stationary", "source_type": "conspiracy"},
+            # Earth shape contradiction
+            {"text": "Earth is round and orbits the Sun", "source_type": "science"},
+            {"text": "Earth is flat and stationary", "source_type": "conspiracy"},
+            {"text": "Earth is spherical globe", "source_type": "academic"},
+            
+            # Climate change contradiction
             {"text": "Climate change is caused by human activities", "source_type": "science"},
-            {"text": "Climate change is a natural phenomenon", "source_type": "skeptic"},
+            {"text": "Climate change is natural phenomenon", "source_type": "skeptic"},
+            {"text": "Global warming is real and man-made", "source_type": "expert"},
+            
+            # Vaccine contradiction
             {"text": "COVID-19 vaccines are safe and effective", "source_type": "medical"},
-            {"text": "COVID-19 vaccines are dangerous", "source_type": "anti-vaccine"},
+            {"text": "COVID-19 vaccines are dangerous and harmful", "source_type": "anti-vaccine"},
+            {"text": "Vaccines have proven safety profile", "source_type": "government"},
+            
+            # Moon landing contradiction
+            {"text": "Moon landing was real historical achievement", "source_type": "history"},
+            {"text": "Moon landing was staged in studio", "source_type": "conspiracy"},
+            
+            # Universal facts (should cluster together)
             {"text": "Water boils at 100°C at sea level", "source_type": "science"},
+            {"text": "Water freezes at 0°C", "source_type": "science"},
             {"text": "Regular exercise improves health", "source_type": "health"},
-            {"text": "The moon landing was real", "source_type": "history"},
-            {"text": "The moon landing was staged", "source_type": "conspiracy"}
         ]
         
         # Analyze demo claims
