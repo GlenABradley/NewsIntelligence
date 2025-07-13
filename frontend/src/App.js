@@ -37,7 +37,7 @@ const TruthDetector = () => {
       setResults(response.data.results);
       setActiveTab("results");
     } catch (err) {
-      setError(err.response?.data?.detail || "Failed to run demo");
+      setError(err.response?.data?.detail || err.message || "Failed to run demo");
     } finally {
       setLoading(false);
     }
