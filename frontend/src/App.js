@@ -15,8 +15,58 @@ const TruthDetector = () => {
   const [activeTab, setActiveTab] = useState("input");
   const [inputMode, setInputMode] = useState("text"); // "text" or "url"
 
-  const addClaim = () => {
-    setClaims([...claims, { text: "", source_type: "unknown" }]);
+  const addUrl = () => {
+    setUrls([...urls, { url: "", source_type: "news" }]);
+  };
+
+  const removeUrl = (index) => {
+    if (urls.length > 1) {
+      setUrls(urls.filter((_, i) => i !== index));
+    }
+  };
+
+  const updateUrl = (index, field, value) => {
+    const newUrls = [...urls];
+    newUrls[index][field] = value;
+    setUrls(newUrls);
+  };
+
+  const analyzeUrls = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const validUrls = urls.filter(url => url.url.trim() !== "");
+      if (validUrls.length === 0) {
+        setError("Please add at least one URL");
+        setLoading(false);
+        return;
+      }
+
+      const response = await axios.post(`${API}/analyze-urls`, {
+        urls: validUrls
+      });
+      
+      setResults(response.data);
+      setActiveTab("results");
+    } catch (err) {
+      console.error("URL analysis error:", err);
+      setError(err.response?.data?.detail || err.message || "Failed to analyze URLs");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const extractUrlPreview = async (url) => {
+    try {
+      const response = await axios.post(`${API}/extract-url`, {
+        url: url,
+        source_type: "news"
+      });
+      return response.data;
+    } catch (err) {
+      console.error("URL extraction error:", err);
+      return null;
+    }
   };
 
   const removeClaim = (index) => {
