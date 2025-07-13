@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
 
 # Enhanced Models
 class ClaimInput(BaseModel):
-    text: str = Field(..., min_length=1, max_length=2000, description="The claim text")
+    text: str = Field(..., min_length=1, max_length=7000, description="The claim text")
     source_type: str = Field(default="unknown", description="Source type of the claim")
 
 class ClaimBatch(BaseModel):
