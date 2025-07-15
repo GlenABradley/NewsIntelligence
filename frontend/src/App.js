@@ -91,7 +91,8 @@ const TruthDetector = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post(`${API}/truth-demo`);
+      const endpoint = analysisMode === "dual_pipeline" ? "dual-pipeline-demo" : "truth-demo";
+      const response = await axios.post(`${API}/${endpoint}`);
       setResults(response.data.results);
       setActiveTab("results");
     } catch (err) {
