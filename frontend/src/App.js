@@ -506,6 +506,50 @@ const TruthDetector = () => {
                 </div>
               </div>
 
+              {/* Analysis Mode Toggle */}
+              <div className="flex space-x-1 mb-6 bg-gray-100 p-1 rounded-lg">
+                <button
+                  onClick={() => setAnalysisMode("dual_pipeline")}
+                  className={`px-4 py-2 rounded-md font-medium transition-all ${
+                    analysisMode === "dual_pipeline"
+                      ? "bg-blue-500 text-white shadow-md"
+                      : "bg-transparent text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  🔬 Dual Pipeline (Fair Witness)
+                </button>
+                <button
+                  onClick={() => setAnalysisMode("original")}
+                  className={`px-4 py-2 rounded-md font-medium transition-all ${
+                    analysisMode === "original"
+                      ? "bg-blue-500 text-white shadow-md"
+                      : "bg-transparent text-gray-700 hover:bg-gray-200"
+                  }`}
+                >
+                  📊 Original System
+                </button>
+              </div>
+
+              {/* Mode Description */}
+              <div className="mb-6 p-4 bg-blue-50 rounded-lg">
+                {analysisMode === "dual_pipeline" ? (
+                  <div>
+                    <h4 className="font-semibold text-blue-800 mb-2">Dual Pipeline Mode (Fair Witness)</h4>
+                    <p className="text-sm text-blue-700">
+                      Advanced analysis that separates factual claims from emotional content, processes them through 
+                      different pipelines, and presents objective facts with quantified emotional overlays.
+                    </p>
+                  </div>
+                ) : (
+                  <div>
+                    <h4 className="font-semibold text-blue-800 mb-2">Original System</h4>
+                    <p className="text-sm text-blue-700">
+                      Traditional truth detection using TF-IDF clustering and contradiction detection.
+                    </p>
+                  </div>
+                )}
+              </div>
+
               {/* Input Mode Toggle */}
               <div className="flex space-x-1 mb-6 bg-gray-100 p-1 rounded-lg">
                 <button
