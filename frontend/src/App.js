@@ -14,6 +14,7 @@ const TruthDetector = () => {
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState("input");
   const [inputMode, setInputMode] = useState("text"); // "text" or "url"
+  const [analysisMode, setAnalysisMode] = useState("dual_pipeline"); // "dual_pipeline" or "original"
 
   const addClaim = () => {
     setClaims([...claims, { text: "", source_type: "unknown" }]);
