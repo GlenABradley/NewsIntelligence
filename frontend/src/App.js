@@ -47,7 +47,8 @@ const TruthDetector = () => {
         return;
       }
 
-      const response = await axios.post(`${API}/analyze-urls`, {
+      const endpoint = analysisMode === "dual_pipeline" ? "analyze-urls-dual-pipeline" : "analyze-urls";
+      const response = await axios.post(`${API}/${endpoint}`, {
         urls: validUrls
       });
       
