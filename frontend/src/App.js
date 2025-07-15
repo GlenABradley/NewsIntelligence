@@ -712,7 +712,9 @@ const TruthDetector = () => {
           {activeTab === "results" && (
             <div>
               <div className="flex justify-between items-center mb-6">
-                <h2 className="text-2xl font-semibold">Analysis Results</h2>
+                <h2 className="text-2xl font-semibold">
+                  {analysisMode === "dual_pipeline" ? "Dual Pipeline Analysis Results" : "Analysis Results"}
+                </h2>
                 <button
                   onClick={() => setActiveTab("input")}
                   className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
@@ -720,7 +722,13 @@ const TruthDetector = () => {
                   Back to Input
                 </button>
               </div>
-              <ResultsView results={results} />
+              
+              {/* Show appropriate results view based on analysis mode */}
+              {analysisMode === "dual_pipeline" ? (
+                <DualPipelineResultsView results={results} />
+              ) : (
+                <ResultsView results={results} />
+              )}
             </div>
           )}
         </div>
