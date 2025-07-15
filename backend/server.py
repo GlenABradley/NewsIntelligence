@@ -45,6 +45,19 @@ class ClaimBatch(BaseModel):
     claims: List[ClaimInput] = Field(..., min_items=1, max_items=100, description="List of claims to analyze")
     analysis_id: Optional[str] = Field(default=None, description="Optional analysis ID for tracking")
 
+class DualPipelineAnalysisResult(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    total_claims: int
+    factual_claims: int
+    emotional_claims: int
+    factual_loci: int
+    emotional_variants: int
+    fair_witness_narrative: str
+    dual_pipeline_summary: str
+    processing_details: Dict[str, Any]
+    error: Optional[str] = None
+
 class TruthAnalysisResult(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     timestamp: datetime = Field(default_factory=datetime.utcnow)
