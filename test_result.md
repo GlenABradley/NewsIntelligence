@@ -101,3 +101,134 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: "Implement Dual Pipeline Overlay for Factual-Emotional Separation in the Coherence Mapper - a sophisticated enhancement that separates factual claims from emotional/subjective content, processes them through different pipelines, and re-synthesizes results as objective facts with emotional overlays using a Fair Witness approach."
+
+backend:
+  - task: "Install sentiment analysis dependencies"
+    implemented: false
+    working: "NA"
+    file: "requirements.txt"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to install VADER and TextBlob for sentiment analysis"
+
+  - task: "Enhance Claim structure for factual/emotional separation"
+    implemented: false
+    working: "NA"
+    file: "truth_detector.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Add is_factual, sentiment_score, emotional_descriptors attributes to Claim class"
+
+  - task: "Implement dual pipeline preprocessing"
+    implemented: false
+    working: "NA"
+    file: "truth_detector.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Add claim separation logic using sentiment analysis and linguistic cues"
+
+  - task: "Implement factual pipeline enhancement"
+    implemented: false
+    working: "NA"
+    file: "truth_detector.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Enhance existing Higgs substrate pipeline for factual claims only"
+
+  - task: "Implement non-factual pipeline (KNN-based)"
+    implemented: false
+    working: "NA"
+    file: "truth_detector.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Create KNN-based emotional clustering system"
+
+  - task: "Implement re-synthesis engine"
+    implemented: false
+    working: "NA"
+    file: "truth_detector.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Combine factual narrative with emotional overlays"
+
+  - task: "Update API endpoints for dual pipeline results"
+    implemented: false
+    working: "NA"
+    file: "server.py"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Enhanced response models and new endpoints for dual pipeline"
+
+frontend:
+  - task: "Add factual/emotional separation display"
+    implemented: false
+    working: "NA"
+    file: "App.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Show pipeline processing details and Fair Witness results"
+
+  - task: "Enhanced results visualization"
+    implemented: false
+    working: "NA"
+    file: "App.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Display factual narratives with emotional annotations"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 0
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Install sentiment analysis dependencies"
+    - "Enhance Claim structure for factual/emotional separation"
+    - "Implement dual pipeline preprocessing"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Starting implementation of Dual Pipeline Overlay system. Will implement backend first with full transparency, then enhance frontend for Fair Witness visualization."
