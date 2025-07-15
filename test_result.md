@@ -225,7 +225,8 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Update API endpoints for dual pipeline results"
+    - "Add factual/emotional separation display"
+    - "Enhanced results visualization"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
