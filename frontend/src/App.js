@@ -138,6 +138,219 @@ const TruthDetector = () => {
     "government", "academic", "conspiracy", "opinion", "witness", "historical"
   ];
 
+  const DualPipelineResultsView = ({ results }) => {
+    if (!results) return null;
+
+    const { 
+      total_claims, 
+      factual_claims, 
+      emotional_claims, 
+      factual_loci, 
+      emotional_variants, 
+      fair_witness_narrative, 
+      dual_pipeline_summary, 
+      processing_details 
+    } = results;
+
+    return (
+      <div className="space-y-6">
+        {/* Dual Pipeline Stats Overview */}
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="bg-blue-50 p-4 rounded-lg">
+            <div className="text-2xl font-bold text-blue-600">{total_claims}</div>
+            <div className="text-sm text-gray-600">Total Claims</div>
+          </div>
+          <div className="bg-green-50 p-4 rounded-lg">
+            <div className="text-2xl font-bold text-green-600">{factual_claims}</div>
+            <div className="text-sm text-gray-600">Factual Claims</div>
+          </div>
+          <div className="bg-purple-50 p-4 rounded-lg">
+            <div className="text-2xl font-bold text-purple-600">{emotional_claims}</div>
+            <div className="text-sm text-gray-600">Emotional Claims</div>
+          </div>
+          <div className="bg-yellow-50 p-4 rounded-lg">
+            <div className="text-2xl font-bold text-yellow-600">{factual_loci}</div>
+            <div className="text-sm text-gray-600">Factual Loci</div>
+          </div>
+          <div className="bg-pink-50 p-4 rounded-lg">
+            <div className="text-2xl font-bold text-pink-600">{emotional_variants}</div>
+            <div className="text-sm text-gray-600">Emotional Variants</div>
+          </div>
+        </div>
+
+        {/* Fair Witness Narrative */}
+        <div className="bg-gray-50 p-6 rounded-lg">
+          <h3 className="text-lg font-semibold mb-4 flex items-center">
+            <span className="mr-2">👁️</span>
+            Fair Witness Narrative
+          </h3>
+          <pre className="whitespace-pre-wrap text-sm font-mono bg-white p-4 rounded border">{fair_witness_narrative}</pre>
+        </div>
+
+        {/* Dual Pipeline Summary */}
+        <div className="bg-blue-50 p-6 rounded-lg">
+          <h3 className="text-lg font-semibold mb-4 text-blue-800">Dual Pipeline Summary</h3>
+          <pre className="whitespace-pre-wrap text-sm bg-white p-4 rounded border">{dual_pipeline_summary}</pre>
+        </div>
+
+        {/* Processing Details */}
+        {processing_details && (
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold mb-4">Processing Details</h3>
+            
+            {/* Claim Separation Details */}
+            {processing_details.claim_separation && (
+              <div className="mb-6">
+                <h4 className="text-md font-medium mb-3 text-green-700">Claim Separation Analysis</h4>
+                <div className="bg-white p-4 rounded border">
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                      <span className="text-sm font-medium">Factual Percentage: </span>
+                      <span className="text-green-600 font-bold">
+                        {processing_details.claim_separation.separation_summary?.factual_percentage?.toFixed(1)}%
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-sm font-medium">Emotional Percentage: </span>
+                      <span className="text-purple-600 font-bold">
+                        {processing_details.claim_separation.separation_summary?.emotional_percentage?.toFixed(1)}%
+                      </span>
+                    </div>
+                  </div>
+                  
+                  {/* Factual Samples */}
+                  {processing_details.claim_separation.factual_samples && (
+                    <div className="mb-4">
+                      <h5 className="text-sm font-medium mb-2 text-green-700">Factual Claim Samples:</h5>
+                      <div className="space-y-2">
+                        {processing_details.claim_separation.factual_samples.map((sample, index) => (
+                          <div key={index} className="bg-green-50 p-3 rounded border-l-4 border-green-500">
+                            <div className="text-sm font-medium">{sample.text}</div>
+                            <div className="text-xs text-gray-600 mt-1">
+                              Source: {sample.source_type} | 
+                              Factual Text: {sample.factual_text} | 
+                              Sentiment: {sample.sentiment_score?.vader_compound?.toFixed(3)}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  
+                  {/* Emotional Samples */}
+                  {processing_details.claim_separation.emotional_samples && (
+                    <div>
+                      <h5 className="text-sm font-medium mb-2 text-purple-700">Emotional Claim Samples:</h5>
+                      <div className="space-y-2">
+                        {processing_details.claim_separation.emotional_samples.map((sample, index) => (
+                          <div key={index} className="bg-purple-50 p-3 rounded border-l-4 border-purple-500">
+                            <div className="text-sm font-medium">{sample.text}</div>
+                            <div className="text-xs text-gray-600 mt-1">
+                              Source: {sample.source_type} | 
+                              Emotional Text: {sample.emotional_text} | 
+                              Sentiment: {sample.sentiment_score?.vader_compound?.toFixed(3)} | 
+                              Descriptors: {sample.emotional_descriptors?.join(', ') || 'None'}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Factual Pipeline Details */}
+            {processing_details.factual_pipeline && (
+              <div className="mb-6">
+                <h4 className="text-md font-medium mb-3 text-green-700">Factual Pipeline (Higgs Substrate)</h4>
+                <div className="bg-white p-4 rounded border">
+                  <div className="space-y-3">
+                    {processing_details.factual_pipeline.map((locus, index) => (
+                      <div key={index} className="bg-green-50 p-3 rounded border-l-4 border-green-500">
+                        <div className="text-sm font-medium">{locus.truth_value}</div>
+                        <div className="text-xs text-gray-600 mt-1">
+                          Support Mass: {locus.support_mass?.toFixed(2)} | 
+                          Coherence: {locus.coherence_score?.toFixed(3)} | 
+                          Sources: {locus.source_diversity} | 
+                          Claims: {locus.claim_count}
+                        </div>
+                        
+                        {/* Emotional Overlays */}
+                        {locus.emotional_overlays && locus.emotional_overlays.length > 0 && (
+                          <div className="mt-2">
+                            <div className="text-xs font-medium text-purple-700 mb-1">Emotional Overlays:</div>
+                            <div className="space-y-1">
+                              {locus.emotional_overlays.map((overlay, oIndex) => (
+                                <div key={oIndex} className="bg-purple-100 p-2 rounded text-xs">
+                                  <span className="font-medium">{overlay.emotion_type}</span>: 
+                                  Intensity {overlay.intensity?.toFixed(1)}/10, 
+                                  Prevalence {(overlay.prevalence * 100)?.toFixed(1)}%
+                                  {overlay.descriptors && overlay.descriptors.length > 0 && (
+                                    <span className="text-gray-600"> ({overlay.descriptors.join(', ')})</span>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Emotional Pipeline Details */}
+            {processing_details.emotional_pipeline && (
+              <div>
+                <h4 className="text-md font-medium mb-3 text-purple-700">Emotional Pipeline (KNN Clustering)</h4>
+                <div className="bg-white p-4 rounded border">
+                  <div className="space-y-3">
+                    {processing_details.emotional_pipeline.map((variant, index) => (
+                      <div key={index} className="bg-purple-50 p-3 rounded border-l-4 border-purple-500">
+                        <div className="text-sm font-medium capitalize">{variant.emotion_type} Variant</div>
+                        <div className="text-xs text-gray-600 mt-1">
+                          Intensity: {variant.intensity?.toFixed(1)}/10 | 
+                          Prevalence: {(variant.prevalence * 100)?.toFixed(1)}% | 
+                          Claims: {variant.claim_count}
+                        </div>
+                        
+                        {/* Emotional Descriptors */}
+                        {variant.descriptors && variant.descriptors.length > 0 && (
+                          <div className="mt-2">
+                            <div className="text-xs font-medium text-purple-700 mb-1">Descriptors:</div>
+                            <div className="flex flex-wrap gap-1">
+                              {variant.descriptors.map((descriptor, dIndex) => (
+                                <span key={dIndex} className="bg-purple-200 text-purple-800 px-2 py-1 rounded text-xs">
+                                  {descriptor}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        
+                        {/* Linked Factual Loci */}
+                        {variant.linked_factual_loci && variant.linked_factual_loci.length > 0 && (
+                          <div className="mt-2">
+                            <div className="text-xs font-medium text-green-700 mb-1">Linked to Factual Loci:</div>
+                            <div className="text-xs text-gray-600">
+                              {variant.linked_factual_loci.join(', ')}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    );
+  };
+
   const ResultsView = ({ results }) => {
     if (!results) return null;
 
