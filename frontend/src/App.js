@@ -118,7 +118,8 @@ const TruthDetector = () => {
         console.log("Single claim analysis - limited functionality");
       }
 
-      const response = await axios.post(`${API}/truth-analyze`, {
+      const endpoint = analysisMode === "dual_pipeline" ? "dual-pipeline-analyze" : "truth-analyze";
+      const response = await axios.post(`${API}/${endpoint}`, {
         claims: validClaims
       });
       
