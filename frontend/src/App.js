@@ -746,31 +746,31 @@ const Home = () => {
             Truth Detector
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Advanced coherence mapping and contradiction detection system to find truth patterns in conflicting claims
+            Advanced dual pipeline system with factual-emotional separation using Fair Witness methodology for objective truth detection
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">How It Works</h3>
+              <h3 className="text-xl font-semibold mb-4">Dual Pipeline System</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Input multiple claims from different sources</li>
-                <li>• Advanced TF-IDF vectorization and clustering</li>
-                <li>• Physics-inspired coherence analysis</li>
-                <li>• Contradiction detection with variant analysis</li>
-                <li>• Generate coherent narratives from chaos</li>
+                <li>• Factual-emotional claim separation using VADER sentiment analysis</li>
+                <li>• Factual pipeline: Enhanced Higgs substrate coherence mapping</li>
+                <li>• Emotional pipeline: KNN-based sentiment clustering</li>
+                <li>• Fair Witness synthesis: Objective facts with emotional overlays</li>
+                <li>• Transparent processing with detailed pipeline insights</li>
               </ul>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-semibold mb-4">Key Features</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Higgs field substrate modeling</li>
-                <li>• Source diversity weighting</li>
-                <li>• Coherence heat mapping</li>
-                <li>• Medial axis skeletonization</li>
-                <li>• Empirical truth validation</li>
+                <li>• Dual pipeline architecture for factual-emotional separation</li>
+                <li>• VADER sentiment analysis for claim classification</li>
+                <li>• Emotional intensity and prevalence quantification</li>
+                <li>• Factual loci with emotional overlay linking</li>
+                <li>• Fair Witness narrative generation</li>
               </ul>
             </div>
           </div>
