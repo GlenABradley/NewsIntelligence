@@ -10,6 +10,7 @@ from typing import List, Dict, Optional, Any
 import uuid
 from datetime import datetime
 from truth_detector import analyze_truth_claims, Claim, TruthDetectorCore
+from dual_pipeline_detector import analyze_claims_dual_pipeline, DualPipelineDetector
 from url_extractor import extract_content_from_url
 import asyncio
 import json
