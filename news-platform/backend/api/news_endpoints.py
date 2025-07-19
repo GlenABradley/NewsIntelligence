@@ -192,7 +192,7 @@ async def cancel_processing():
 @router.get("/feeds-config", summary="Get Feed Configuration")
 async def get_feeds_config():
     """Get current news feed configuration"""
-    from ..core.config import FREE_NEWS_SOURCES
+    from core.config import FREE_NEWS_SOURCES
     
     return {
         "rss_feeds": FREE_NEWS_SOURCES["rss_feeds"],
