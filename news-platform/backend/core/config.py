@@ -3,7 +3,10 @@ News Intelligence Platform - Core Configuration
 """
 import os
 from typing import List, Dict
-from pydantic import BaseSettings
+try:
+    from pydantic_settings import BaseSettings
+except ImportError:
+    from pydantic import BaseSettings
 from datetime import time
 import pytz
 
