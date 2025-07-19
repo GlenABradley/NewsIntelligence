@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Implement Dual Pipeline Overlay for Factual-Emotional Separation in the Coherence Mapper - a sophisticated enhancement that separates factual claims from emotional/subjective content, processes them through different pipelines, and re-synthesizes results as objective facts with emotional overlays using a Fair Witness approach."
+user_problem_statement: "Build a complete News Intelligence Platform MVP that leverages the existing Truth Detector's dual pipeline concepts to process breaking news feeds. The system should identify top 25 impactful stories, gather diverse perspectives, perform coherence mapping, and generate professional journalist-ready reports. Include well-documented placeholders for user's semantic pattern matching and impact assessment algorithms."
 
 backend:
   - task: "Install sentiment analysis dependencies"
