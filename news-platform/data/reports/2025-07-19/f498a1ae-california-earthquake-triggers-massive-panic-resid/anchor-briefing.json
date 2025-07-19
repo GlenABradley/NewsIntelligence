@@ -1,0 +1,33 @@
+{
+  "story_id": "f498a1aeb5f4",
+  "headline": "California earthquake triggers massive panic, residents flee in terror",
+  "one_liner": "California earthquake triggers massive panic, residents flee in terror",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant anger response (67% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "anger",
+      "prevalence": 66.66666666666666,
+      "intensity": 5.149816666666667
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 33.33333333333333,
+      "intensity": 3.734933333333333
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T05:41:18.537299",
+  "expires_at": "2025-07-19T23:59:59.537303"
+}

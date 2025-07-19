@@ -1,0 +1,89 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 3,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "anger": 66.66666666666666,
+      "sadness": 33.33333333333333
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "The devastating earthquake that rocked California has left residents in absolute terror and panic",
+      "emotion_type": "anger",
+      "intensity": 5.700633333333334,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "The fear is palpable across the entire region as aftershocks continue to terrorize the population",
+      "emotion_type": "anger",
+      "intensity": 4.599,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "Social media is flooded with horrifying videos of people running for their lives as buildings collapsed around them",
+      "emotion_type": "sadness",
+      "intensity": 3.734933333333333,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "anger",
+          "intensity": 5.700633333333334,
+          "example": "The devastating earthquake that rocked California has left residents in absolute terror and panic"
+        },
+        {
+          "emotion": "anger",
+          "intensity": 4.599,
+          "example": "The fear is palpable across the entire region as aftershocks continue to terrorize the population"
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 3.734933333333333,
+          "example": "Social media is flooded with horrifying videos of people running for their lives as buildings collap..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "anger",
+        "frequency": 2,
+        "average_intensity": 5.149816666666667,
+        "prevalence": 66.66666666666666
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 3.734933333333333,
+        "prevalence": 33.33333333333333
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.734933333333333,
+      "max": 5.700633333333334,
+      "average": 4.678188888888889
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 1,
+    "total_emotional_claims_extracted": 3,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T05:41:18.536867",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

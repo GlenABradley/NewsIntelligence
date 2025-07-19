@@ -1,0 +1,24 @@
+{
+  "cluster_id": "a1578a7c1ad8",
+  "analysis_date": "2025-07-19T05:41:18.533717",
+  "source_metrics": {
+    "Reuters Top News": {
+      "article_count": 1,
+      "perspective": "center-wire",
+      "total_word_count": 89,
+      "articles": [
+        {
+          "title": "Breaking: Major 7.2 earthquake strikes California, widespread damage reported",
+          "published_at": "2025-07-19T05:41:18.489895",
+          "url": "http://example.com/1",
+          "word_count": 89
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-wire": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

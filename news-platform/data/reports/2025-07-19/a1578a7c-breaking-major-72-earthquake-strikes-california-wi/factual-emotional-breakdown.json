@@ -1,0 +1,77 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 2,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "concern": 50.0,
+      "anger": 50.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "A powerful magnitude 7",
+      "emotion_type": "concern",
+      "intensity": 4.215,
+      "perspective": "center-wire",
+      "source": "Reuters Top News"
+    },
+    {
+      "text": "Emergency services report collapsed buildings in downtown LA, with at least 15 people injured",
+      "emotion_type": "anger",
+      "intensity": 3.0024000000000006,
+      "perspective": "center-wire",
+      "source": "Reuters Top News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-wire": [
+        {
+          "emotion": "concern",
+          "intensity": 4.215,
+          "example": "A powerful magnitude 7"
+        },
+        {
+          "emotion": "anger",
+          "intensity": 3.0024000000000006,
+          "example": "Emergency services report collapsed buildings in downtown LA, with at least 15 people injured"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 4.215,
+        "prevalence": 50.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 3.0024000000000006,
+        "prevalence": 50.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.0024000000000006,
+      "max": 4.215,
+      "average": 3.6087000000000002
+    },
+    "perspective_coverage": [
+      "center-wire"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 2,
+    "total_emotional_claims_extracted": 2,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-wire": 1
+    },
+    "processing_timestamp": "2025-07-19T05:41:18.533676",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}
