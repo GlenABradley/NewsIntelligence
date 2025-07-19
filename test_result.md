@@ -222,8 +222,9 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Add factual/emotional separation display"
-    - "Enhanced results visualization"
+    - "News Intelligence Platform MVP Implementation"
+    - "Story Clustering with Semantic Pattern Matching Placeholder"
+    - "Professional Report Generation"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
