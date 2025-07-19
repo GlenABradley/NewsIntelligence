@@ -61,7 +61,7 @@ async def get_daily_reports(report_date: str):
 async def download_report_file(
     report_date: str,
     story_id: str,
-    file_type: str = Query(..., description="File type: markdown, briefing, source_analysis, breakdown")
+    file_type: str
 ):
     """Download a specific report file"""
     try:
