@@ -1,0 +1,24 @@
+{
+  "cluster_id": "ecf3850c5a7c",
+  "analysis_date": "2025-07-19T06:02:34.289229",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 1374,
+      "articles": [
+        {
+          "title": "'The village will die' - Italy looks for answers to decline in number of babies",
+          "published_at": "2025-07-19T05:01:19",
+          "url": "https://www.bbc.com/news/articles/c5y76483200o",
+          "word_count": 1374
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

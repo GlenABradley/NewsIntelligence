@@ -1,0 +1,38 @@
+{
+  "story_id": "ecf3850c5a7c",
+  "headline": "'The village will die' - Italy looks for answers to decline in number of babies",
+  "one_liner": "The government wants to encourage women to have babies but Italians say they need greater help.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (60% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 60.0,
+      "intensity": 5.589822222222222
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 20.0,
+      "intensity": 8.3646
+    },
+    {
+      "emotion": "anger",
+      "prevalence": 20.0,
+      "intensity": 7.43
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "medium",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.344359",
+  "expires_at": "2025-07-19T23:59:59.344363"
+}

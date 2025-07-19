@@ -1,0 +1,58 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 1,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 100.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "After a 12-hour-long rescue operation, all the workers are in good health, Colombia's National Mining Agency (ANM) said",
+      "emotion_type": "joy",
+      "intensity": 4.4106000000000005,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "joy",
+          "intensity": 4.4106000000000005,
+          "example": "After a 12-hour-long rescue operation, all the workers are in good health, Colombia's National Minin..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 1,
+        "average_intensity": 4.4106000000000005,
+        "prevalence": 100.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 4.4106000000000005,
+      "max": 4.4106000000000005,
+      "average": 4.4106000000000005
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 4,
+    "total_emotional_claims_extracted": 1,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:35.309913",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

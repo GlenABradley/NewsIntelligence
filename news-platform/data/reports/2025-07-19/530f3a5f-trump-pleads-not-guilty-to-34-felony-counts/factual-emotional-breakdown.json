@@ -1,0 +1,1096 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 75,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.46611111111111103,
+    "emotional_spectrum_coverage": {
+      "joy": 100.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "The district attorney\u2019s office has been investigating Trump\u2019s alleged role in a hush money payment scheme involving adult film star Stormy Daniels that dates to the 2016 presidential election",
+      "confidence": 0.9007999999999999,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Daniels",
+        "Stormy",
+        "Manhattan"
+      ]
+    },
+    {
+      "text": "All Catch Up 34 Posts Our live coverage of Trump\u2019s historic indictment has moved",
+      "confidence": 0.9500000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Our",
+        "Catch",
+        "All",
+        "Posts"
+      ]
+    },
+    {
+      "text": "\u201d In rejecting the request to broadcast the arraignment live on television, Merchan still wrote about the historical significance of the proceeding in stark terms",
+      "confidence": 0.8587766666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Merchan"
+      ]
+    },
+    {
+      "text": "Acting New York Supreme Court Judge Juan Merchan rejected the request by several media organizations, including CNN, for permission to broadcast the historic proceedings",
+      "confidence": 0.9541127272727272,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Acting",
+        "York",
+        "Supreme",
+        "New",
+        "Court"
+      ]
+    },
+    {
+      "text": "Trump\u2019s arraignment \u2014 like most arraignments in the Manhattan courthouse \u2014 is a public proceeding, but news cameras are not usually allowed to broadcast from inside the courtroom",
+      "confidence": 0.8885255555555556,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Manhattan"
+      ]
+    },
+    {
+      "text": "The Manhattan District Attorney\u2019s office told the judge they didn\u2019t have a position",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Manhattan",
+        "District"
+      ]
+    },
+    {
+      "text": "The media outlets that tried to get cameras into the courtroom argued that \u201cthe gravity of this proceeding \u2026 and, consequently, the need for the broadest possible public access, cannot be overstated",
+      "confidence": 0.7849733333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The"
+      ]
+    },
+    {
+      "text": "\u201d Trump is now in Manhattan ahead of the arraignment",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "Manhattan"
+      ]
+    },
+    {
+      "text": "Former President Donald Trump arrives in New York on Monday",
+      "confidence": 0.9362545454545455,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "York",
+        "Former",
+        "New",
+        "President",
+        "Trump"
+      ]
+    },
+    {
+      "text": "It\u2019s the first test to see whether Trump can navigate two vasty different approaches to his legal case and his political campaign , which are now inextricably linked",
+      "confidence": 0.8999333333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump"
+      ]
+    },
+    {
+      "text": "Alina Habba, lawyer for former President Donald Trump, gives an interview outside of Trump Tower on March 21 in New York City",
+      "confidence": 0.9663636363636364,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Alina",
+        "President",
+        "Trump",
+        "Tower"
+      ]
+    },
+    {
+      "text": "\u201d Habba \u2014 appearing on on Fox News\u2019 \u201cJesse Watters\u201d \u2014 was asked about the \u201cgame plan\u201d for Trump\u2019s appearance in court in Manhattan Tuesday and said, \u201cIt\u2019s all mapped out",
+      "confidence": 0.92,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Fox",
+        "Manhattan",
+        "Habba"
+      ]
+    },
+    {
+      "text": "From left to right: Susan Necheles, Todd Blanche and Joe Tacopina",
+      "confidence": 0.9464285714285715,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Blanche",
+        "Joe",
+        "Todd",
+        "From",
+        "Susan"
+      ]
+    },
+    {
+      "text": "(Reuters/Getty Images) Former President Donald Trump met with his attorneys Susan Necheles and Joe Tacopina at Trump Tower after arriving in New York City Monday, a source familiar with the meeting told CNN",
+      "confidence": 0.9363636363636364,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Former",
+        "President",
+        "Trump",
+        "Susan"
+      ]
+    },
+    {
+      "text": "It is unclear if the newest addition to Trump\u2019s New York legal team, Todd Blanche, attended the meeting",
+      "confidence": 0.8961454545454546,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "York",
+        "New",
+        "Todd"
+      ]
+    },
+    {
+      "text": "So instead, once the court hearing is over, Trump is expected to walk again through the public hallway and into the back corridors to the district attorney\u2019s office, back to where his motorcade will be waiting",
+      "confidence": 0.9155003535353535,
+      "consensus_level": 0.08333333333333333,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Service",
+        "The",
+        "York",
+        "Secret",
+        "New",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Former President Donald Trump arrives at Trump Tower ahead of his expected arraignment Tuesday",
+      "confidence": 0.9401515151515153,
+      "consensus_level": 0.125,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Donald",
+        "Former",
+        "York",
+        "New",
+        "President",
+        "Trump"
+      ]
+    },
+    {
+      "text": "It\u2019s the first time that a current or former US president has been criminally charged",
+      "confidence": 0.8751433333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Trump\u2019s attorney said he plans to file \u201csubstantial\u201d legal challenges",
+      "confidence": 0.8993099999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "(Yuki Iwamura/AP) Trump's plane lands at LaGuardia Airport in New York on Monday, April 3",
+      "confidence": 0.9090909090909092,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "York",
+        "Airport",
+        "New",
+        "April",
+        "LaGuardia"
+      ]
+    },
+    {
+      "text": "(Timothy Fadek for CNN) Dan Ray waves an American flag as a plane carrying former President Donald Trump takes off from the Palm Beach International Airport in Florida on Monday, April 3",
+      "confidence": 1.0,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Ray",
+        "Dan",
+        "Donald",
+        "Palm",
+        "Foi",
+        "American",
+        "Beach",
+        "President",
+        "Trump",
+        "Fadek"
+      ]
+    },
+    {
+      "text": "(Ricardo Arduengo/Reuters) A television news reporter from Spain is seen outside Trump Tower in New York on Monday, April 3",
+      "confidence": 0.9495454545454546,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "York",
+        "Spain",
+        "New",
+        "Tower",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Now that he is inside the building \u2014 where he launched his presidential bid nearly eight years ago \u2014 Trump is expected to meet with lawyers and political advisers on the eve of his arraignment, an aide told CNN",
+      "confidence": 0.9016000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "Now",
+        "CNN"
+      ]
+    },
+    {
+      "text": "Trump\u2019s mood was described by an adviser as \u201cdefiant and focused,\u201d as he watched expansive television coverage while flying back to his native New York City from Florida",
+      "confidence": 0.9318181818181819,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "City",
+        "York",
+        "New",
+        "Florida",
+        "Track"
+      ]
+    },
+    {
+      "text": "Special counsel prosecutors have secured evidence including daily notes, texts, emails and photographs and are focused on cataloging how Donald Trump handled classified records around the Mar-a-Lago resort and those who may have witnessed the former president with them, according to multiple sources familiar with the investigation",
+      "confidence": 0.9199628571428571,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Special",
+        "Trump",
+        "Donald"
+      ]
+    },
+    {
+      "text": "Witnesses are being questioned about what they saw in Trump\u2019s private residential and work areas within the club, some of the sources said",
+      "confidence": 0.89419,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Witnesses"
+      ]
+    },
+    {
+      "text": "(David Dee Delgado/Reuters) Former President Donald Trump has arrived at his midtown Manhattan property Trump Tower",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Former",
+        "Dee",
+        "President",
+        "Trump"
+      ]
+    },
+    {
+      "text": "He will stay at Trump Tower tonight and is expected to depart New York immediately after Tuesday\u2019s arraignment to head back to Florida \u2014 where he plans to deliver remarks at his Mar-a-lago home",
+      "confidence": 0.9430303030303031,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "York",
+        "New",
+        "Florida",
+        "Tower",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Law enforcement officers stand guard near Trump Tower",
+      "confidence": 0.92,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tower",
+        "Trump",
+        "Law"
+      ]
+    },
+    {
+      "text": "As former President Donald Trump walked down from his plane at La Guardia Airport on the eve of his arraignment, CNN\u2019s Gloria Borger noted the unique situation he\u2019s in",
+      "confidence": 0.9140740740740741,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Guardia",
+        "Airport",
+        "President",
+        "Trump"
+      ]
+    },
+    {
+      "text": "CNN is part of the media coalition that asked the judge for permission to broadcast the hearing",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "CNN"
+      ]
+    },
+    {
+      "text": "Then-President Donald Trump listens during a meeting in the Cabinet Room of the White House in 2020",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Room",
+        "White",
+        "Cabinet",
+        "Trump"
+      ]
+    },
+    {
+      "text": "The former president will stay at Trump Tower tonight, according to a source familiar with his plans",
+      "confidence": 1.0,
+      "consensus_level": 0.16666666666666666,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Tower",
+        "Trump",
+        "CNN"
+      ]
+    },
+    {
+      "text": "But even before Trump\u2019s appearance, his presence will be felt in the Manhattan courthouse Tuesday, as all trials and most other court activity is being halted before he is slated to arrive",
+      "confidence": 0.9125000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Manhattan",
+        "But"
+      ]
+    },
+    {
+      "text": "Here is what we know about tomorrow\u2019s events : The Secret Service is scheduled to accompany Trump in the early afternoon to the district attorney\u2019s office, which is in the same building as the courthouse",
+      "confidence": 0.925,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Service",
+        "Here",
+        "The",
+        "Secret",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Trump will be booked by the investigators, which includes taking his fingerprints",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump"
+      ]
+    },
+    {
+      "text": "But that won\u2019t happen with Trump",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "But"
+      ]
+    },
+    {
+      "text": "Once the former president is finished being processed, he\u2019ll be taken through a back set of hallways and elevators to the floor where the courtroom is located",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Once"
+      ]
+    },
+    {
+      "text": "He\u2019ll then come out to a public hallway to walk into the courtroom",
+      "confidence": 0.9866666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Ordinarily, a defendant who is released would walk out the front doors, but Secret Service will want to limit the time and space where Trump is in public",
+      "confidence": 0.8809355555555555,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "Service",
+        "Secret"
+      ]
+    },
+    {
+      "text": "Then he\u2019ll head to the airport so he can get back to Mar-a-Lago, where he\u2019s scheduled an event that evening to speak publicly",
+      "confidence": 0.9933333333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Then"
+      ]
+    },
+    {
+      "text": "CNN\u2019s John Miller, Jeremy Herb, Katelyn Polantz, Tierney Sneed, Sydney Kashiwagi, Kristen Holmes, Holmes Lybrand, Hannah Rabinowitz, Paula Reid, Alayna Treene, Gregory Clary and Devan Cole contributed reporting to this post",
+      "confidence": 1.0,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Paula",
+        "Tierney",
+        "Reid",
+        "Sydney",
+        "Jeremy",
+        "John",
+        "Katelyn"
+      ]
+    },
+    {
+      "text": "The former president touched down shortly after 3:25 p",
+      "confidence": 0.9607407407407408,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The"
+      ]
+    },
+    {
+      "text": "Trump faces more than 30 counts related to business fraud, CNN has reported, but the indictment remains under seal",
+      "confidence": 0.9654483333333332,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "CNN"
+      ]
+    },
+    {
+      "text": "He will spend Monday night at the Trump Tower, according to a source familiar with his plans",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "Monday"
+      ]
+    },
+    {
+      "text": "The former president is expected to return to Florida shortly after his court appearance and has scheduled an event that evening to speak publicly",
+      "confidence": 0.9616666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Florida"
+      ]
+    },
+    {
+      "text": "Former President Donald Trump's plane taxis on the runway at LaGuardia Airport, Monday, April 3, in New York",
+      "confidence": 0.9545454545454546,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Former",
+        "President",
+        "April",
+        "LaGuardia"
+      ]
+    },
+    {
+      "text": "Members of the media are seen positioned outside Trump Tower in New York on Monday",
+      "confidence": 0.9495454545454546,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "York",
+        "Members",
+        "New",
+        "Tower",
+        "Trump"
+      ]
+    },
+    {
+      "text": "(Carlos Barria/Reuters) Lawyers for former President Donald Trump told a New York judge on Monday that they oppose the request by media outlets to broadcast Trump\u2019s arraignment on Tuesday",
+      "confidence": 0.9545454545454546,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "New",
+        "President",
+        "Trump",
+        "Lawyers"
+      ]
+    },
+    {
+      "text": "Among the Trump lawyers signing the new letter was Todd Blanche, who, CNN reported, recently joined the former president\u2019s legal team",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Trump",
+        "Among",
+        "CNN",
+        "Todd"
+      ]
+    },
+    {
+      "text": "\u201d But the prosecutors also noted that there \u201cdoes not appear to be a categorical prohibition on cameras during an arraignment\u201d under existing New York statutes and case law",
+      "confidence": 0.9090909090909092,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "New",
+        "York",
+        "But"
+      ]
+    },
+    {
+      "text": "The judge responded to that 2021 request by \u201callowing a limited number of still photographs to be taken prior to the commencement of proceedings,\u201d the prosecutors noted Monday",
+      "confidence": 0.9397842857142857,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Monday"
+      ]
+    },
+    {
+      "text": "CNN is one of the outlets requesting camera access for Tuesday\u2019s arraignment",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "CNN"
+      ]
+    },
+    {
+      "text": "Todd Blanche speaks to the press in 2019",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Blanche",
+        "Todd"
+      ]
+    },
+    {
+      "text": "(Atilgan Ozdil/Anadolu Agency/Getty Images) Former President Donald Trump has hired a new attorney to serve as lead counsel in his defense against charges brought by the Manhattan district attorney\u2019s office, multiple sources tell CNN",
+      "confidence": 0.9237669696969697,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Former",
+        "Manhattan",
+        "President",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Trump has hired Todd Blanche, who was most recently a partner at law firm Cadwalader, Wickersham & Taft",
+      "confidence": 0.9233333333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Wickersham",
+        "Trump",
+        "Taft",
+        "Todd"
+      ]
+    },
+    {
+      "text": "Blanche has previously represented Trump campaign manager Paul Manafort and Igor Fruman , a former associate of Rudy Giuliani who was also a key figure in Trump\u2019s first impeachment trial",
+      "confidence": 0.925,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Blanche",
+        "Igor",
+        "Paul",
+        "Trump",
+        "Manafort"
+      ]
+    },
+    {
+      "text": "Politico was first to report the news of Blanche\u2019s hiring",
+      "confidence": 0.9333333333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Politico"
+      ]
+    },
+    {
+      "text": "Trump attorney\u2019s Joe Tacopina and Susan Necheles will remain on Trump\u2019s legal team",
+      "confidence": 0.9216000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tacopina",
+        "Joe",
+        "Necheles",
+        "Trump",
+        "Susan"
+      ]
+    },
+    {
+      "text": "When pressed by CNN\u2019s Kaitlan Collins on Friday if Tacopina was the right lawyer in New York to take Trump to trial, another lawyer representing the former president, Tim Parlatore, pointed to a potential conflict of interest",
+      "confidence": 0.847117012987013,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tacopina",
+        "Friday",
+        "Kaitlan",
+        "Collins",
+        "When"
+      ]
+    },
+    {
+      "text": "Asked by CNN\u2019s Paula Reid if he is still on the case and whether he will be in court tomorrow, Tacopina said: \u201cYes of course",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tacopina",
+        "Reid",
+        "Paula",
+        "Asked"
+      ]
+    },
+    {
+      "text": "And I will be the lead trial lawyer when the bell rings",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "And"
+      ]
+    },
+    {
+      "text": "Peters, who is also a member of Senate Democrat leadership, said it is unclear what effect the indictment will have on the Senate",
+      "confidence": 0.925,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Senate",
+        "Democrat"
+      ]
+    },
+    {
+      "text": "\u201cWe don\u2019t know what\u2019s gonna transpire tomorrow, let alone what\u2019s going to happen in the few weeks and months",
+      "confidence": 0.905,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "I think we\u2019d have to take a look at what the indictment is all about",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "His personalized Boeing 757 took off from the Palm Beach International Airport this afternoon at about 12:59 p",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "His",
+        "Palm",
+        "Beach",
+        "Boeing",
+        "International"
+      ]
+    },
+    {
+      "text": "ET ahead of his Tuesday appearance in a Manhattan courtroom to be arraigned",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Manhattan"
+      ]
+    },
+    {
+      "text": "The charges have yet to be made public",
+      "confidence": 0.9047066666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The"
+      ]
+    },
+    {
+      "text": "The former president is not expected to stay in New York City for very long",
+      "confidence": 0.9312727272727274,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "City",
+        "York",
+        "New"
+      ]
+    },
+    {
+      "text": "Immediately after his Tuesday court appearance, Trump plans to return to Florida, the source said, where he has scheduled an event to speak publicly",
+      "confidence": 0.9866666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Immediately",
+        "Tuesday",
+        "Trump"
+      ]
+    },
+    {
+      "text": "Former President Donald Trump waves from a vehicle as he leaves his Mar-a-Lago home on Monday",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donald",
+        "Former",
+        "President",
+        "Trump",
+        "Monday"
+      ]
+    },
+    {
+      "text": "Spells and Jack Forrest contributed reporting to this post",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Jack",
+        "Forrest",
+        "Spells"
+      ]
+    },
+    {
+      "text": "(Spencer Platt/Getty Images) New York City Mayor Eric Adams warned GOP Rep",
+      "confidence": 0.8271309090909091,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Mayor",
+        "City",
+        "York",
+        "Eric",
+        "New"
+      ]
+    },
+    {
+      "text": "Adams made the statement at a press conference as New York security officials detailed plans ahead of Trump\u2019s arrival in Manhattan for his arraignment scheduled on Tuesday",
+      "confidence": 0.7775454545454545,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Adams",
+        "York",
+        "Manhattan",
+        "New"
+      ]
+    },
+    {
+      "text": "No matter who you are,\u201d he added",
+      "confidence": 0.99427,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "\u201cAs always, we will not allow violence or vandalism of any kind",
+      "emotion_type": "joy",
+      "intensity": 6.4872,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cAs always, we will not allow violence or vandalism of any kind",
+      "emotion_type": "joy",
+      "intensity": 6.4872,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret Service-related concerns) and we submit that any video or photography of the proceedings will only heighten these serious concerns,\u201d they wrote",
+      "emotion_type": "joy",
+      "intensity": 5.4590499999999995,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret Service-related concerns) and we submit that any video or photography of the proceedings will only heighten these serious concerns,\u201d they wrote",
+      "emotion_type": "joy",
+      "intensity": 5.4590499999999995,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret Service-related concerns) and we submit that any video or photography of the proceedings will only heighten these serious concerns,\u201d they wrote",
+      "emotion_type": "joy",
+      "intensity": 5.4590499999999995,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 6.4872,
+          "example": "\u201cAs always, we will not allow violence or vandalism of any kind"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.4872,
+          "example": "\u201cAs always, we will not allow violence or vandalism of any kind"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.4590499999999995,
+          "example": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret S..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.4590499999999995,
+          "example": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret S..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.4590499999999995,
+          "example": "\u201cAs Your Honor is well-aware, this case presents extraordinary security concerns (including Secret S..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 5,
+        "average_intensity": 5.870309999999999,
+        "prevalence": 100.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 5.4590499999999995,
+      "max": 6.4872,
+      "average": 5.870309999999999
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 183,
+    "total_emotional_claims_extracted": 16,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.673008",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

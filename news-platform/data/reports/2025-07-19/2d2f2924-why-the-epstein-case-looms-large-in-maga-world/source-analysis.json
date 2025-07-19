@@ -1,0 +1,24 @@
+{
+  "cluster_id": "2d2f29242a9a",
+  "analysis_date": "2025-07-19T06:02:34.312133",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 1455,
+      "articles": [
+        {
+          "title": "Why the Epstein case looms large in  MAGA world",
+          "published_at": "2025-07-18T23:05:27",
+          "url": "https://www.bbc.com/news/articles/cy8ge16d2y3o",
+          "word_count": 1455
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

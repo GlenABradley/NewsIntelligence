@@ -1,0 +1,38 @@
+{
+  "story_id": "2d2f29242a9a",
+  "headline": "Why the Epstein case looms large in  MAGA world",
+  "one_liner": "A subset of Trump supporters are passionate about the case - and angry at the president.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (60% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 60.0,
+      "intensity": 6.149925661375661
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 20.0,
+      "intensity": 7.579000000000001
+    },
+    {
+      "emotion": "anger",
+      "prevalence": 20.0,
+      "intensity": 4.623497596153846
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.345471",
+  "expires_at": "2025-07-19T23:59:59.345475"
+}

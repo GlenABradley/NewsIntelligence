@@ -1,0 +1,24 @@
+{
+  "cluster_id": "4ecd57738c3c",
+  "analysis_date": "2025-07-19T06:02:34.935842",
+  "source_metrics": {
+    "Fox News": {
+      "article_count": 1,
+      "perspective": "center-right",
+      "total_word_count": 532,
+      "articles": [
+        {
+          "title": "Rubio announces visa revocations on Brazilian judge for 'political witch hunt' against ex-president Bolsonaro",
+          "published_at": "2025-07-19T05:23:54",
+          "url": "https://www.foxnews.com/world/rubio-announces-visa-revocationson-brazilian-judge-political-witch-hunt-against-ex-president-bolsonaro",
+          "word_count": 532
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-right": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

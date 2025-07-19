@@ -1,0 +1,24 @@
+{
+  "cluster_id": "c98b5e82ea31",
+  "analysis_date": "2025-07-19T06:02:34.926263",
+  "source_metrics": {
+    "CNN Top Stories": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 1883,
+      "articles": [
+        {
+          "title": "Hundreds of millions at risk from Chinese shopping app malware",
+          "published_at": "2025-07-19T06:02:00.659891",
+          "url": "https://cnn.it/40OSomK",
+          "word_count": 1883
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

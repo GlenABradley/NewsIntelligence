@@ -1,0 +1,24 @@
+{
+  "cluster_id": "5bf421987bfb",
+  "analysis_date": "2025-07-19T06:02:34.984327",
+  "source_metrics": {
+    "NPR News": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 1605,
+      "articles": [
+        {
+          "title": "Funding cuts will hit rural areas hard. One station manager explains how",
+          "published_at": "2025-07-18T22:35:22",
+          "url": "https://www.npr.org/2025/07/18/nx-s1-5472460/funding-cuts-will-hit-rural-areas-hard-one-station-manager-explains-how",
+          "word_count": 1605
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,33 @@
+{
+  "story_id": "23037e06e62c",
+  "headline": "Trump sues Murdoch and Wall Street Journal over Epstein article",
+  "one_liner": "The $10bn lawsuit is over a story claiming the president wrote a \"bawdy\" personal note to Jeffrey Epstein in 2003.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (83% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 83.33333333333334,
+      "intensity": 5.184104603174603
+    },
+    {
+      "emotion": "concern",
+      "prevalence": 16.666666666666664,
+      "intensity": 4.588
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 2,
+    "perspective_diversity": 2
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.338616",
+  "expires_at": "2025-07-19T23:59:59.338620"
+}

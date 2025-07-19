@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 60.0,
+      "concern": 20.0,
+      "sadness": 20.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "\u201cThat\u2019s really important because it helps me pay for rent, groceries, school fees and the care of my animals, which I love dearly",
+      "emotion_type": "joy",
+      "intensity": 7.4072000000000005,
+      "perspective": "left-international",
+      "source": "Guardian World"
+    },
+    {
+      "text": "The changes to the Fair Work Act would effectively ensure workers paid under awards cannot have their penalty rates reduced in return for a higher rate of base pay if it leaves workers worse off",
+      "emotion_type": "joy",
+      "intensity": 6.31332,
+      "perspective": "left-international",
+      "source": "Guardian World"
+    },
+    {
+      "text": "\u201cWhat\u2019s become clear is that we need added legal protection to make sure penalty rates and overtime are protected in our award system,\u201d she said",
+      "emotion_type": "joy",
+      "intensity": 4.0809999999999995,
+      "perspective": "left-international",
+      "source": "Guardian World"
+    },
+    {
+      "text": "\u201d Sign up for Guardian Australia\u2019s breaking news email Peak retail and business groups had applied to the industrial umpire to allow some companies to opt out of providing penalty rates for staff in exchange for a raise on base levels of pay",
+      "emotion_type": "concern",
+      "intensity": 3.612,
+      "perspective": "left-international",
+      "source": "Guardian World"
+    },
+    {
+      "text": "Breaks forbidden, food instead of pay: one-third of young Australian workers exploited by employers, study shows Read more The employment minister, Amanda Rishworth, on Saturday said the government was responding to cases before the Fair Work Commission that could result in cuts to people\u2019s take-home pay",
+      "emotion_type": "sadness",
+      "intensity": 3.4105499999999997,
+      "perspective": "left-international",
+      "source": "Guardian World"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "left-international": [
+        {
+          "emotion": "joy",
+          "intensity": 7.4072000000000005,
+          "example": "\u201cThat\u2019s really important because it helps me pay for rent, groceries, school fees and the care of my..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.31332,
+          "example": "The changes to the Fair Work Act would effectively ensure workers paid under awards cannot have thei..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.0809999999999995,
+          "example": "\u201cWhat\u2019s become clear is that we need added legal protection to make sure penalty rates and overtime ..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.612,
+          "example": "\u201d Sign up for Guardian Australia\u2019s breaking news email Peak retail and business groups had applied t..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 3.4105499999999997,
+          "example": "Breaks forbidden, food instead of pay: one-third of young Australian workers exploited by employers,..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 3,
+        "average_intensity": 5.93384,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 3.612,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 3.4105499999999997,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.4105499999999997,
+      "max": 7.4072000000000005,
+      "average": 4.964814
+    },
+    "perspective_coverage": [
+      "left-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 4,
+    "total_emotional_claims_extracted": 5,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "left-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.947165",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "fear": 20.0,
+      "joy": 20.0,
+      "sadness": 40.0,
+      "anger": 20.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "South Africans have long been concerned about organised crime, which, leading crime expert Dr Johan Burger pointed out, was at a \"very serious level\"",
+      "emotion_type": "fear",
+      "intensity": 5.2066333333333334,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "In an interview with local TV station Newzroom Afrika, Cachalia said that Gen Mkhwanazi's decision to go public with his explosive allegations was \"highly unusual\", but if they turned out to be true then \"we will be able to see in retrospect that he was perfectly justified in doing what he did\"",
+      "emotion_type": "joy",
+      "intensity": 5.041331944444445,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Gen Nhlanhla Mkhwanazi did it in dramatic style - dressed in military-like uniform and surrounded by masked police officers with automatic weapons, he called a press conference to accuse Police Minister Senzo Mchunu of having ties to criminal gangs",
+      "emotion_type": "sadness",
+      "intensity": 4.5793,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Gen Mkhwanazi's team has also faced criticism for their heavy-handed approach towards criminal suspects, who are sometimes shot dead in confrontations with officers under his command",
+      "emotion_type": "anger",
+      "intensity": 4.45645,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "But Gen Mkhwanazi's intervention was unprecedented - the first time that a police officer had publicly accused a cabinet member, let alone the one in charge of policing, of having links to criminal gangs",
+      "emotion_type": "sadness",
+      "intensity": 4.0329999999999995,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "fear",
+          "intensity": 5.2066333333333334,
+          "example": "South Africans have long been concerned about organised crime, which, leading crime expert Dr Johan ..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.041331944444445,
+          "example": "In an interview with local TV station Newzroom Afrika, Cachalia said that Gen Mkhwanazi's decision t..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.5793,
+          "example": "Gen Nhlanhla Mkhwanazi did it in dramatic style - dressed in military-like uniform and surrounded by..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 4.45645,
+          "example": "Gen Mkhwanazi's team has also faced criticism for their heavy-handed approach towards criminal suspe..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.0329999999999995,
+          "example": "But Gen Mkhwanazi's intervention was unprecedented - the first time that a police officer had public..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "sadness",
+        "frequency": 2,
+        "average_intensity": 4.30615,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "fear",
+        "frequency": 1,
+        "average_intensity": 5.2066333333333334,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "joy",
+        "frequency": 1,
+        "average_intensity": 5.041331944444445,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 4.45645,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 4.0329999999999995,
+      "max": 5.2066333333333334,
+      "average": 4.663343055555556
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 8,
+    "total_emotional_claims_extracted": 12,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.329263",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

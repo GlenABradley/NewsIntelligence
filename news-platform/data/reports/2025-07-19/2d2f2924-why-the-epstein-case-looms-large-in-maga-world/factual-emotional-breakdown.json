@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 60.0,
+      "sadness": 20.0,
+      "anger": 20.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "But a subset of extremely online MAGA supporters are still deeply passionate about the Epstein case",
+      "emotion_type": "joy",
+      "intensity": 8.16775,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "The president seemed eager to move on, calling the Epstein case \"sordid, but it's boring\" while also blaming Democrats for continuing to make it an issue",
+      "emotion_type": "sadness",
+      "intensity": 7.579000000000001,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Many Trump supporters are happy to follow the president's lead",
+      "emotion_type": "joy",
+      "intensity": 5.7375,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Now, Donald Trump is finding it hard to shake loose the conspiracy theories that have animated his base since he first broke through into Republican politics a decade ago",
+      "emotion_type": "anger",
+      "intensity": 4.623497596153846,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Why the Epstein case looms large in MAGA world 7 hours ago Share Save Mike Wendling BBC News Share Save Getty Images Donald Trump, his now wife Melania, Jeffrey Epstein and Ghislaine Maxwell pose for a photo in February 2000 When Jack Posobiec walked into the Department of Justice in Washington, DC last February, he thought he would finally get some answers about Jeffrey Epstein",
+      "emotion_type": "joy",
+      "intensity": 4.544526984126984,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "joy",
+          "intensity": 8.16775,
+          "example": "But a subset of extremely online MAGA supporters are still deeply passionate about the Epstein case"
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 7.579000000000001,
+          "example": "The president seemed eager to move on, calling the Epstein case \"sordid, but it's boring\" while also..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.7375,
+          "example": "Many Trump supporters are happy to follow the president's lead"
+        },
+        {
+          "emotion": "anger",
+          "intensity": 4.623497596153846,
+          "example": "Now, Donald Trump is finding it hard to shake loose the conspiracy theories that have animated his b..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.544526984126984,
+          "example": "Why the Epstein case looms large in MAGA world 7 hours ago Share Save Mike Wendling BBC News Share S..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 3,
+        "average_intensity": 6.149925661375661,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 7.579000000000001,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 4.623497596153846,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 4.544526984126984,
+      "max": 8.16775,
+      "average": 6.130454916056166
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 18,
+    "total_emotional_claims_extracted": 12,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.312096",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cluster_id": "530f3a5f603a",
+  "analysis_date": "2025-07-19T06:02:34.673058",
+  "source_metrics": {
+    "CNN Top Stories": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 7336,
+      "articles": [
+        {
+          "title": "Trump pleads not guilty to 34 felony counts",
+          "published_at": "2025-07-19T06:01:59.436889",
+          "url": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+          "word_count": 7336
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

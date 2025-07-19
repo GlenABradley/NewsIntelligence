@@ -1,0 +1,24 @@
+{
+  "cluster_id": "b17b7cb800b0",
+  "analysis_date": "2025-07-19T06:02:35.304979",
+  "source_metrics": {
+    "NPR News": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 1744,
+      "articles": [
+        {
+          "title": "NPR CEO Katherine Maher discusses the future of public radio",
+          "published_at": "2025-07-18T10:57:07",
+          "url": "https://www.npr.org/2025/07/18/nx-s1-5471394/npr-ceo-katherine-maher-discusses-the-future-of-public-radio",
+          "word_count": 1744
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

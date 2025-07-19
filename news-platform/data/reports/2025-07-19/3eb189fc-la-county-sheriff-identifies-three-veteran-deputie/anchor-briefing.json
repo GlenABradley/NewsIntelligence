@@ -1,0 +1,38 @@
+{
+  "story_id": "3eb189fcbb9f",
+  "headline": "LA County Sheriff identifies three veteran deputies killed in training facility explosion",
+  "one_liner": "An explosion that killed three Los Angeles County Sheriff's deputies occurred one day after they responded to a call involving explosives at a Santa Monica complex.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (33% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 33.33333333333333,
+      "intensity": 7.336214285714285
+    },
+    {
+      "emotion": "anger",
+      "prevalence": 33.33333333333333,
+      "intensity": 4.01
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 33.33333333333333,
+      "intensity": 3.96715
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.363394",
+  "expires_at": "2025-07-19T23:59:59.363399"
+}

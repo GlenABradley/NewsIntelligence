@@ -1,0 +1,24 @@
+{
+  "cluster_id": "eea31e008fb6",
+  "analysis_date": "2025-07-19T06:02:35.319381",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 423,
+      "articles": [
+        {
+          "title": "North Korea bans foreigners from seaside resort weeks after opening",
+          "published_at": "2025-07-18T09:35:10",
+          "url": "https://www.bbc.com/news/articles/c07dr52p21mo",
+          "word_count": 423
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

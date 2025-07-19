@@ -1,0 +1,24 @@
+{
+  "cluster_id": "4b39c6958715",
+  "analysis_date": "2025-07-19T06:02:34.329295",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 1132,
+      "articles": [
+        {
+          "title": "Top policeman shakes South Africa with explosive allegations about his boss",
+          "published_at": "2025-07-19T00:29:16",
+          "url": "https://www.bbc.com/news/articles/c39zygp0d8yo",
+          "word_count": 1132
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

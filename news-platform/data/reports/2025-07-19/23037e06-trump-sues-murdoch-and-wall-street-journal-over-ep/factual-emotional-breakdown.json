@@ -1,0 +1,129 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 6,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 83.33333333333334,
+      "concern": 16.666666666666664
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "Happy Birthday \u2013 and may every day be another wonderful secret",
+      "emotion_type": "joy",
+      "intensity": 7.3134,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\" Why the Epstein case looms large in MAGA world Trump's voters want to see the Epstein files - but have faith in their president The US justice department request concerns transcripts from the grand jury involved in the government's 2019 sex trafficking case against Epstein, materials that are typically kept secret and protected by law",
+      "emotion_type": "joy",
+      "intensity": 6.254028571428572,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "A grand jury - a panel of people who vet whether there is enough evidence to charge a person with a crime - can hear from confidential informants and those whose identities are protected for their safety",
+      "emotion_type": "joy",
+      "intensity": 4.77675,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Materials in a grand jury are typically kept secret under the law, but a judge can unseal documents if they decide public interest outweighs the need for such legal protections in a case",
+      "emotion_type": "joy",
+      "intensity": 3.831944444444445,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "It reportedly contains a joking reference that \"Enigmas never age\" and allegedly ends with the words: \"A pal is a wonderful thing",
+      "emotion_type": "joy",
+      "intensity": 3.7443999999999997,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "list 1 of 3 Trump seeks release of grand jury transcripts as Epstein uproar widens list 2 of 3 Why is Trump\u2019s MAGA base in revolt over Epstein",
+      "emotion_type": "concern",
+      "intensity": 4.588,
+      "perspective": "international-middle-east",
+      "source": "Al Jazeera"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "joy",
+          "intensity": 7.3134,
+          "example": "Happy Birthday \u2013 and may every day be another wonderful secret"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.254028571428572,
+          "example": "\" Why the Epstein case looms large in MAGA world Trump's voters want to see the Epstein files - but ..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.77675,
+          "example": "A grand jury - a panel of people who vet whether there is enough evidence to charge a person with a ..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 3.831944444444445,
+          "example": "Materials in a grand jury are typically kept secret under the law, but a judge can unseal documents ..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 3.7443999999999997,
+          "example": "It reportedly contains a joking reference that \"Enigmas never age\" and allegedly ends with the words..."
+        }
+      ],
+      "international-middle-east": [
+        {
+          "emotion": "concern",
+          "intensity": 4.588,
+          "example": "list 1 of 3 Trump seeks release of grand jury transcripts as Epstein uproar widens list 2 of 3 Why i..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 5,
+        "average_intensity": 5.184104603174603,
+        "prevalence": 83.33333333333334
+      },
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 4.588,
+        "prevalence": 16.666666666666664
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.7443999999999997,
+      "max": 7.3134,
+      "average": 5.0847538359788365
+    },
+    "perspective_coverage": [
+      "center-international",
+      "international-middle-east"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 2,
+    "total_factual_claims_extracted": 9,
+    "total_emotional_claims_extracted": 10,
+    "source_diversity_score": 0.7,
+    "perspective_coverage": {
+      "center-international": 1,
+      "international-middle-east": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.173544",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

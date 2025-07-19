@@ -1,0 +1,45 @@
+{
+  "story_id": "530f3a5f603a",
+  "headline": "Trump pleads not guilty to 34 felony counts",
+  "one_liner": "Trump pleads not guilty to 34 felony counts",
+  "key_facts": [
+    {
+      "fact": "The district attorney\u2019s office has been investigating Trump\u2019s alleged role in a hush money payment scheme involving adult film star Stormy Daniels that dates to the 2016 presidential election",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    },
+    {
+      "fact": "All Catch Up 34 Posts Our live coverage of Trump\u2019s historic indictment has moved",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "\u201d In rejecting the request to broadcast the arraignment live on television, Merchan still wrote about the historical significance of the proceeding in stark terms",
+      "confidence": 0.5,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, the district attorney\u2019s office has been investigating trump\u2019s alleged role in a hush money payment scheme involving adult film star stormy daniels that dates to the 2016 presidential election",
+    "Coverage shows significant joy response (100% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 100.0,
+      "intensity": 5.870309999999999
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.46611111111111103,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "high"
+  },
+  "generated_at": "2025-07-19T06:02:35.349249",
+  "expires_at": "2025-07-19T23:59:59.349254"
+}

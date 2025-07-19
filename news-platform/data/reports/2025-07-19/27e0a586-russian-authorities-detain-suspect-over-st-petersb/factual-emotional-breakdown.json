@@ -1,0 +1,1146 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 80,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.4572916666666666,
+    "emotional_spectrum_coverage": {
+      "joy": 40.0,
+      "sadness": 40.0,
+      "anger": 20.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "Finland is set to become a member of the alliance on Tuesday, with Finnish President Sauli Niinist\u00f6 traveling to Brussels to attend an accession ceremony at NATO headquarters",
+      "confidence": 0.9933333333333333,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Finland",
+        "Tuesday",
+        "NATO",
+        "Sauli",
+        "Brussels",
+        "President",
+        "Finnish",
+        "Niinist\u00f6"
+      ]
+    },
+    {
+      "text": "(The Wall Street Journal/Reuters) Wall Street Journal reporter Evan Gershkovich has filed an appeal against his arrest , according to the Russian state news agency TASS",
+      "confidence": 0.9931566666666667,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Wall",
+        "The",
+        "Journal",
+        "Moscow",
+        "Street"
+      ]
+    },
+    {
+      "text": "Petersburg, Russia, will take place on Tuesday at Basmanny District Court in Moscow, according to Russian state news agency Vesti",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tuesday",
+        "Basmanny",
+        "Russian",
+        "District",
+        "Court"
+      ]
+    },
+    {
+      "text": "Linda Thomas-Greenfield at the Rayburn House Office Building in Washington, DC on March 1",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Building",
+        "Rayburn",
+        "Office",
+        "House",
+        "Linda"
+      ]
+    },
+    {
+      "text": "\u201d Greenfield said she is not surprised if the Russians asked the foreign minister to come to UNSC headquarters in New York but also said council does work beyond Ukraine",
+      "confidence": 0.8756536363636362,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Greenfield",
+        "Russians",
+        "York",
+        "UNSC",
+        "New"
+      ]
+    },
+    {
+      "text": "Vasily Nebenzya , Russian ambassador to the United Nations, dismissed concerns that Russia could fairly be the president of the Security Council for April during the ongoing war in Ukraine",
+      "confidence": 0.88684,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "United",
+        "Nations",
+        "Vasily",
+        "Nebenzya",
+        "Russian",
+        "Russia"
+      ]
+    },
+    {
+      "text": "The ambassador said as long as world order is maintained, there will not be any change in UN procedures that might lead to a change in Russia\u2019s status",
+      "confidence": 0.92,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The"
+      ]
+    },
+    {
+      "text": "The 25-second video shows Tartovsky putting a statuette given to him at the event into a box after passing the microphone to another man",
+      "confidence": 1.0,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Tartovsky"
+      ]
+    },
+    {
+      "text": "He places the statuette back into the box and then covers it with what appears to be paper wrapping",
+      "confidence": 1.0,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "As he presses down the paper, there is an explosion",
+      "confidence": 0.9422222222222223,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Finland\u2019s official accession to NATO is historic, alliance chief says: NATO Secretary General Jens Stoltenberg said it will be historic when the military alliance raises the Finnish flag for the first time at its headquarters on Tuesday after it was announced that Finland was joining the alliance",
+      "confidence": 0.958,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Secretary",
+        "NATO",
+        "General",
+        "Stoltenberg",
+        "Jens"
+      ]
+    },
+    {
+      "text": "We will raise the Finnish flag for the first time here at NATO Headquarters,\u201d Stoltenberg said, speaking in Brussels Monday",
+      "confidence": 0.9333333333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "NATO",
+        "Brussels",
+        "Stoltenberg",
+        "Finnish",
+        "Monday"
+      ]
+    },
+    {
+      "text": "Ukraine receives first tranche of $2",
+      "confidence": 0.9292929292929294,
+      "consensus_level": 0.16666666666666666,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "IMF",
+        "Ukraine"
+      ]
+    },
+    {
+      "text": "7 billion from a new International Monetary Fund (IMF) program, Ukrainian Finance Minister Sergii Marchenko tweeted Monday",
+      "confidence": 0.9545454545454546,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Monetary",
+        "Finance",
+        "Ukrainian",
+        "International",
+        "Fund"
+      ]
+    },
+    {
+      "text": "The report, which covers one year of war in Ukraine between February 24, 2022, and February 24, 2023, was a joint assessment conducted by the Ukrainian government, the World Bank, the European Commission and the United Nations",
+      "confidence": 0.91804,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "February",
+        "Ukrainian",
+        "Ukraine"
+      ]
+    },
+    {
+      "text": "(Muhammed Enes Yildirim/Anadolu Agency/Getty Images) The Ukrainian military has reported little change to the front lines but heavy fire from Russian forces at various parts of the front line in the Donetsk region",
+      "confidence": 0.9567116666666666,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Donetsk",
+        "The",
+        "Ukrainian",
+        "Russian",
+        "Enes"
+      ]
+    },
+    {
+      "text": "In the last two seconds of the video, Tartovsky is pixillated, but the rest of the scene is not",
+      "confidence": 0.9866666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Tartovsky"
+      ]
+    },
+    {
+      "text": "More to know: The well-known Russian blogger was killed in what appeared to be an audacious attack on a high-profile pro-Kremlin figure, officials said",
+      "confidence": 0.7351566666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "More",
+        "Russian"
+      ]
+    },
+    {
+      "text": "At least 32 people were injured in the blast, with 10 people in serious condition, state media Ria Novosti reported, citing the Russian Ministry of Health",
+      "confidence": 0.9912488888888888,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Ria",
+        "Novosti",
+        "Ministry",
+        "Russian",
+        "Health"
+      ]
+    },
+    {
+      "text": "Vasily Nebenzya speaks at the UN headquarters in New York on February 22",
+      "confidence": 0.9090909090909092,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Vasily",
+        "York",
+        "Nebenzya",
+        "New",
+        "February"
+      ]
+    },
+    {
+      "text": "Nebenzya pointed out that the US was president of the council in 2003 \u2014 the year Iraq was invaded",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Iraq",
+        "Nebenzya"
+      ]
+    },
+    {
+      "text": "The Extended Fund Facility (EFF) loan is the first major conventional financing program approved by the IMF for a country involved in a large-scale war, Reuters reported",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Extended",
+        "Facility",
+        "IMF",
+        "Fund"
+      ]
+    },
+    {
+      "text": "The risks to the arrangement are \u201cexceptionally high,\u201d said Gita Gopinath, first deputy managing director of the global lender",
+      "confidence": 0.8598177777777778,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Gita"
+      ]
+    },
+    {
+      "text": "German Chancellor Olaf Scholz on Monday assured Moldova of Berlin\u2019s support on its path to accession to the European Union as Moldovan and American officials allege Russia of trying to weaken the government in Chisinau",
+      "confidence": 0.8979999999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Scholz",
+        "Olaf",
+        "Chancellor",
+        "German",
+        "Monday"
+      ]
+    },
+    {
+      "text": "Moldova does not stand alone, but receives massive international support,\u201d the German chancellor continued",
+      "confidence": 0.9048033333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "German",
+        "Moldova"
+      ]
+    },
+    {
+      "text": "\u201d According to White House officials, the US believes that Russia is working to weaken the Moldovan government, as it continues to seek closer ties with the European Union",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "According",
+        "Moldovan",
+        "House",
+        "Russia",
+        "White"
+      ]
+    },
+    {
+      "text": "This requirement of the Helsinki Final Act and other agreements under international law was also signed by Russia",
+      "confidence": 0.8263733333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Final",
+        "Helsinki",
+        "Act",
+        "Russia",
+        "This"
+      ]
+    },
+    {
+      "text": "\u201d CNN\u2019s Radina Gigova, Anna Chernova and Natasha Bertrand contributed reporting to this post",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Bertrand",
+        "Natasha",
+        "Anna",
+        "Chernova",
+        "Radina"
+      ]
+    },
+    {
+      "text": "NATO Secretary General Jens Stoltenberg spoke during a press conference to present the next North Atlantic Council (NAC) Ministers of Foreign Affairs meeting at the NATO headquarters in Brussels on April 3",
+      "confidence": 0.953125,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Secretary",
+        "NATO",
+        "General",
+        "Stoltenberg",
+        "Jens"
+      ]
+    },
+    {
+      "text": "(Kenzo Tribouillard/AFP/Getty Images) NATO Secretary General Jens Stoltenberg said Monday that the alliance has not seen any changes in Russia\u2019s nuclear posture since Russian President Vladimir Putin announced late last month Moscow\u2019s plans to station tactical nuclear weapons in neighboring Belarus",
+      "confidence": 0.8095466666666666,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Secretary",
+        "NATO",
+        "General",
+        "Stoltenberg",
+        "Jens"
+      ]
+    },
+    {
+      "text": "\u201d \u201cPresident Putin tries to use nuclear weapons as a way to prevent us from supporting Ukraine\u2026 intimidation, coercion to stop NATO Allies and partners for supporting Ukraine in their right to defend their own country,\u201d he said",
+      "confidence": 0.8275714285714285,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Ukraine",
+        "NATO",
+        "Allies",
+        "Putin"
+      ]
+    },
+    {
+      "text": "Stoltenberg added that allies have delivered 65 billion euros (around $70",
+      "confidence": 0.9866666666666667,
+      "consensus_level": 0.25,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Stoltenberg",
+        "Western",
+        "Jens",
+        "Ukraine",
+        "Monday"
+      ]
+    },
+    {
+      "text": "And history does not repeat itself",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "And"
+      ]
+    },
+    {
+      "text": "We cannot allow Russia to continue to chip away at European security,\u201d he said",
+      "confidence": 0.9491499999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Russia",
+        "European"
+      ]
+    },
+    {
+      "text": "7 billion) in military aid, and said he welcomed the recent arrival of modern battle tanks and other armored vehicles in Ukraine",
+      "confidence": 0.93327,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Ukraine"
+      ]
+    },
+    {
+      "text": "\u201cThis can make a real difference on the front lines and allow the Ukrainian forces to liberate more territory,\u201d he said",
+      "confidence": 0.85211,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Ukrainian"
+      ]
+    },
+    {
+      "text": "He urged allies to invest more in defense to tackle all these wide range of issues",
+      "confidence": 0.8509,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Norway and Denmark will cooperate to donate 8,000 artillery rounds to Ukraine, the Norwegian government announced in a statement on Monday",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Norwegian",
+        "Norway",
+        "Monday",
+        "Denmark"
+      ]
+    },
+    {
+      "text": "\u201cNorway donates the shells, while Denmark donates the associated fuzes, propellant bags and primer cartridges,\u201d the statement said",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Denmark"
+      ]
+    },
+    {
+      "text": "The rounds will be \u201cstandard NATO 155 mm artillery ammunition and will supplement the Danish donation of 19 Caesar self-propelled howitzers,\u201d Norway\u2019s statement added",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Danish",
+        "NATO",
+        "Caesar"
+      ]
+    },
+    {
+      "text": "Norway\u2019s artillery shells will be delivered from the country\u2019s armed forces\u2019 own stock, according to the statement",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Norway will contribute where we can",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Norway"
+      ]
+    },
+    {
+      "text": "Denmark, together with other EU and NATO countries, is in the process of accommodating with a number of different military contributions",
+      "confidence": 0.9051733333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "NATO"
+      ]
+    },
+    {
+      "text": "West of the city, Ukrainian defense forces repelled about 20 enemy attacks, according to the General Staff",
+      "confidence": 0.8871199999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "General",
+        "Staff",
+        "Ukrainian",
+        "West"
+      ]
+    },
+    {
+      "text": "\u201d Syrskyi referenced the possibility of a future counter-offensive, saying that \u201cthe forward movement of our entire army depends on what every soldier is doing right now on their section of the front",
+      "confidence": 0.9142857142857144,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Syrskyi"
+      ]
+    },
+    {
+      "text": "Our military have taken some positions",
+      "confidence": 0.9800000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Our"
+      ]
+    },
+    {
+      "text": "They have taken a more strategic and favourable position,\u201d said Oleksii Dmytrashkivskyi, spokesperson for the military in that zone",
+      "confidence": 0.9400000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "They",
+        "Oleksii"
+      ]
+    },
+    {
+      "text": "\u201d Social media video showed both sides engaged in heavy fire in the Avdiivka area, which the Russians have surrounded on three sides",
+      "confidence": 0.9201733333333333,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Social",
+        "Russians",
+        "Avdiivka"
+      ]
+    },
+    {
+      "text": "Denis Pushilin, the leader of the self-declared Donetsk People\u2019s Republic, claimed that Russian forces were still advancing in the Avdiivka direction",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Russian",
+        "Avdiivka",
+        "Denis",
+        "Donetsk"
+      ]
+    },
+    {
+      "text": "There are difficulties both with the terrain, which must also be overcome, and there are also similarities with weather conditions",
+      "confidence": 0.9112,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "There"
+      ]
+    },
+    {
+      "text": "7 billion of that cost was distributed to \u201chistoric cities, buildings, and sites imbued with recognized cultural/social values,\u201d $650 million to tourism facilities, $143 million to \u201cmovable cultural properties and collections, repositories of culture,\u201d and $150 million to \u201cbuildings/workshops/ateliers dedicated to cultural and creative industries,\u201d according to UNESCO",
+      "confidence": 0.87663,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "UNESCO"
+      ]
+    },
+    {
+      "text": "UNESCO\u2019s head Audrey Azoulay is currently in Ukraine, the organization told CNN on Monday",
+      "confidence": 0.92,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Azoulay",
+        "Audrey",
+        "Monday",
+        "CNN"
+      ]
+    },
+    {
+      "text": "\u201d CNN\u2019s Laurent Kent contributed to this report",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Laurent",
+        "Kent"
+      ]
+    },
+    {
+      "text": "At least 501 children have been killed in Ukraine since February 2022, when Russia launched its full-scale invasion, said Catherine Russell, executive director of the United Nations Children\u2019s Fund (UNICEF)",
+      "confidence": 0.8712,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "United",
+        "Catherine",
+        "Ukraine",
+        "Russia",
+        "February"
+      ]
+    },
+    {
+      "text": "The International Atomic Energy Agency's General Director Rafael Grossi addressing the media on the results of his visit to the Zaporizhzhia Nuclear Power Plant in Dnipro, Ukraine, on March 29",
+      "confidence": 0.86804,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Atomic",
+        "The",
+        "General",
+        "International",
+        "Energy"
+      ]
+    },
+    {
+      "text": "(Vitalii Matokha/AFP/Getty Images) The head of the United Nations nuclear agency, International Atomic Energy Agency, will travel to the Russian enclave of Kaliningrad in the Baltics Wednesday to discuss the safety of Ukraine\u2019s Zaporizhzhia nuclear power plant, a spokesperson for the agency told CNN",
+      "confidence": 0.7684899999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Atomic",
+        "United",
+        "The",
+        "Nations",
+        "International"
+      ]
+    },
+    {
+      "text": "\u201cIAEA Director General Rafael Mariano Grossi will visit Kaliningrad on Wednesday as part of his ongoing consultations aimed at ensuring the protection of Ukraine\u2019s Zaporizhzhia Nuclear Power Plant during the military conflict,\u201d the spokesperson said Monday",
+      "confidence": 0.85804,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Mariano",
+        "General",
+        "Grossi",
+        "Rafael",
+        "Director"
+      ]
+    },
+    {
+      "text": "The plant has been occupied by Russian forces since March of last year and is now run by the Russian atomic agency, Rosatom",
+      "confidence": 0.9955555555555556,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "March",
+        "Russian",
+        "Rosatom"
+      ]
+    },
+    {
+      "text": "The situation at the nuclear plant has not improved, according to the IAEA chief, who visited the facility last week and cited increased military activity in the area",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "IAEA"
+      ]
+    },
+    {
+      "text": "Five of them were seriously wounded, according to the Coordination Headquarters for the Treatment of Prisoners of War",
+      "confidence": 0.8158666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Prisoners",
+        "Headquarters",
+        "Coordination",
+        "Treatment",
+        "Five"
+      ]
+    },
+    {
+      "text": "Since the beginning of the invasion in February last year, 2,005 Ukrainians have been released from captivity, according to the headquarters",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "February",
+        "Ukrainians",
+        "Since"
+      ]
+    },
+    {
+      "text": "(Dmitri Lovetsky/AP) Wagner boss Yevgeny Prigozhin said Monday that he \u201cgave\u201d the St",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Wagner",
+        "Yevgeny",
+        "Monday",
+        "Prigozhin"
+      ]
+    },
+    {
+      "text": "Russia\u2019s independent news outlet Fontanka is reporting that the cafe belongs to Prigozhin, on the basis of the Concord company\u2019s ownership mentioned on the cafe\u2019s receipt",
+      "confidence": 0.9750000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Fontanka",
+        "Concord"
+      ]
+    },
+    {
+      "text": "Prigozhin is the founder and sole owner of Concord, according to public records",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Prigozhin"
+      ]
+    },
+    {
+      "text": "CNN has not been able to independently verify Prigozhin\u2019s claims and whether he is the legal owner of the cafe",
+      "confidence": 0.8982666666666668,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "CNN"
+      ]
+    },
+    {
+      "text": "In the same post, Prigozhin is also commenting on who may be behind the blast",
+      "confidence": 0.9175000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Prigozhin"
+      ]
+    },
+    {
+      "text": "I don\u2019t know about the rest of the details,\u201d Prigozhin said",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Prigozhin"
+      ]
+    },
+    {
+      "text": "\u201cBut I would not blame the Kyiv regime for these actions",
+      "confidence": 0.92248,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Kyiv"
+      ]
+    },
+    {
+      "text": "I think that there is a group of radicals that is hardly related to the government",
+      "confidence": 0.92,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "That\u2019s what I would call it,\u201d Prigozhin said",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Prigozhin"
+      ]
+    },
+    {
+      "text": "Zelensky said while on a tour of the northern Chernihiv region, \u201cAbout St",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Zelensky",
+        "Chernihiv"
+      ]
+    },
+    {
+      "text": "I\u2019m not thinking what is going on in St",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Russia have to think about their cities",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Russia"
+      ]
+    },
+    {
+      "text": "\u201d Some more context: Kremlin spokesperson Dmitry Peskov has said Ukraine may be behind the explosion",
+      "confidence": 0.8800000000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Peskov",
+        "Some",
+        "Dmitry",
+        "Kremlin",
+        "Ukraine"
+      ]
+    },
+    {
+      "text": "However, no evidence has yet been presented about who carried out the bombing",
+      "confidence": 0.9112,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    },
+    {
+      "text": "Two independent organizations in Russia \u2014 the Libertarian party and Russian opposition leader Alexey Navalny\u2019s Anti-Corruption Foundation \u2014 have denied any association with Trepova",
+      "confidence": 0.93413,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Two",
+        "Russian",
+        "Libertarian",
+        "Russia",
+        "Alexey"
+      ]
+    },
+    {
+      "text": "newspaper The Wall Street Journal Evan Gershkovich in an undated handout image",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Wall",
+        "The",
+        "Journal",
+        "Street",
+        "Evan"
+      ]
+    },
+    {
+      "text": "The agency cited the press service of the Lefortovo court in Moscow, where he was taken into custody last week",
+      "confidence": 0.9866666666666667,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "The",
+        "Lefortovo"
+      ]
+    },
+    {
+      "text": "\u201cThe court received a complaint from Gershkovich\u2019s defense against the choice of a preventive measure in the form of detention,\u201d TASS reported",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "TASS"
+      ]
+    },
+    {
+      "text": "No date for hearing the appeal has been set",
+      "confidence": 0.9112,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": []
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "Tomorrow we will welcome Finland as the 31st member of NATO, making Finland safer and our alliance stronger",
+      "emotion_type": "joy",
+      "intensity": 7.3134,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "Tomorrow we will welcome Finland as the 31st member of NATO, making Finland safer and our alliance stronger",
+      "emotion_type": "joy",
+      "intensity": 7.3134,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cI do not know the details of the incident now, I was only informed that, unfortunately, Vladlen Tatarsky died",
+      "emotion_type": "sadness",
+      "intensity": 7.184,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "\u201cI do not know the details of the incident now, I was only informed that, unfortunately, Vladlen Tatarsky died",
+      "emotion_type": "sadness",
+      "intensity": 7.184,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "Stoltenberg described Putin\u2019s announcement as a \u201cpattern of dangerous, reckless nuclear rhetoric",
+      "emotion_type": "anger",
+      "intensity": 6.3027,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 7.3134,
+          "example": "Tomorrow we will welcome Finland as the 31st member of NATO, making Finland safer and our alliance s..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 7.3134,
+          "example": "Tomorrow we will welcome Finland as the 31st member of NATO, making Finland safer and our alliance s..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 7.184,
+          "example": "\u201cI do not know the details of the incident now, I was only informed that, unfortunately, Vladlen Tat..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 7.184,
+          "example": "\u201cI do not know the details of the incident now, I was only informed that, unfortunately, Vladlen Tat..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 6.3027,
+          "example": "Stoltenberg described Putin\u2019s announcement as a \u201cpattern of dangerous, reckless nuclear rhetoric"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 2,
+        "average_intensity": 7.3134,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 2,
+        "average_intensity": 7.184,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 6.3027,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 6.3027,
+      "max": 7.3134,
+      "average": 7.0595
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 193,
+    "total_emotional_claims_extracted": 42,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.887573",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

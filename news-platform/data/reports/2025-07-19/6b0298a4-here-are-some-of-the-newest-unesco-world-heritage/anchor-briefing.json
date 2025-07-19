@@ -1,0 +1,40 @@
+{
+  "story_id": "6b0298a4ba46",
+  "headline": "Here are some of the newest UNESCO World Heritage sites",
+  "one_liner": "Bavarian palaces, imperial tombs in China and memorials to Khmer Rouge victims are among the sites being recognized by the United Nations agency.",
+  "key_facts": [
+    {
+      "fact": "Ecosystems of the Bijag\u00f3s Islands Wildlife in Orango National Park on the Bijag\u00f3s Archipelago",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    },
+    {
+      "fact": "Beck/UNESCO Nomination File hide caption toggle caption J",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, ecosystems of the bijag\u00f3s islands wildlife in orango national park on the bijag\u00f3s archipelago",
+    "Coverage shows significant anger response (100% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "anger",
+      "prevalence": 100.0,
+      "intensity": 5.305299999999999
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.3333333333333333,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.359192",
+  "expires_at": "2025-07-19T23:59:59.359196"
+}

@@ -1,0 +1,38 @@
+{
+  "cluster_id": "ec3decb4adaf",
+  "analysis_date": "2025-07-19T06:02:34.264530",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 1090,
+      "articles": [
+        {
+          "title": "El Salvador and US negotiate prisoner swap with Venezuela",
+          "published_at": "2025-07-18T22:26:58",
+          "url": "https://www.bbc.com/news/articles/c4gd4ye41ymo",
+          "word_count": 1090
+        }
+      ]
+    },
+    "NPR News": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 893,
+      "articles": [
+        {
+          "title": "10 Americans are freed by Venezuela in a prisoner swap for migrants in El Salvador",
+          "published_at": "2025-07-18T20:37:51",
+          "url": "https://www.npr.org/2025/07/18/nx-s1-5472623/venezuela-prisoner-exchange-el-salvador-us",
+          "word_count": 893
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.7,
+  "perspective_coverage": {
+    "center-international": 1,
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 2 articles from 2 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,24 @@
+{
+  "cluster_id": "c137441061b9",
+  "analysis_date": "2025-07-19T06:02:34.180908",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 433,
+      "articles": [
+        {
+          "title": "US tech CEO suspended after Coldplay concert embrace goes viral",
+          "published_at": "2025-07-19T01:58:15",
+          "url": "https://www.bbc.com/news/articles/c80pnnn0gj3o",
+          "word_count": 433
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,24 @@
+{
+  "cluster_id": "ac7d79a02617",
+  "analysis_date": "2025-07-19T06:02:34.947206",
+  "source_metrics": {
+    "Guardian World": {
+      "article_count": 1,
+      "perspective": "left-international",
+      "total_word_count": 615,
+      "articles": [
+        {
+          "title": "Labor moves to bolster penalty rates and overtime pay protections for millions of workers",
+          "published_at": "2025-07-19T05:25:46",
+          "url": "https://www.theguardian.com/global/2025/jul/19/labor-moves-to-bolster-penalty-rates-and-overtime-pay-protections-for-millions-of-workers",
+          "word_count": 615
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "left-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

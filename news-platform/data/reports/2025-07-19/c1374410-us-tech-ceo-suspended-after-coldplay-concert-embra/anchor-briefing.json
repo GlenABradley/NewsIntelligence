@@ -1,0 +1,33 @@
+{
+  "story_id": "c137441061b9",
+  "headline": "US tech CEO suspended after Coldplay concert embrace goes viral",
+  "one_liner": "Big screen footage of the two people went viral after reports they were colleagues and at least one was married to another person.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant concern response (50% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "concern",
+      "prevalence": 50.0,
+      "intensity": 4.767
+    },
+    {
+      "emotion": "joy",
+      "prevalence": 50.0,
+      "intensity": 4.72505
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.339698",
+  "expires_at": "2025-07-19T23:59:59.339702"
+}

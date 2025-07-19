@@ -1,0 +1,38 @@
+{
+  "story_id": "9e2058fd097f",
+  "headline": "Court orders Bolsonaro to wear ankle tag and puts him under curfew",
+  "one_liner": "A court in Brazil also bars the ex-president from using social media and puts him under 24-hour surveillance.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant anger response (33% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "anger",
+      "prevalence": 33.33333333333333,
+      "intensity": 7.357075000000001
+    },
+    {
+      "emotion": "joy",
+      "prevalence": 33.33333333333333,
+      "intensity": 4.4583
+    },
+    {
+      "emotion": "concern",
+      "prevalence": 33.33333333333333,
+      "intensity": 3.5827499999999994
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "medium",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.342383",
+  "expires_at": "2025-07-19T23:59:59.342388"
+}

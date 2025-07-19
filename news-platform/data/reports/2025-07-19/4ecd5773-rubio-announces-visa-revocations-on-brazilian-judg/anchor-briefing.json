@@ -1,0 +1,33 @@
+{
+  "story_id": "4ecd57738c3c",
+  "headline": "Rubio announces visa revocations on Brazilian judge for 'political witch hunt' against ex-president Bolsonaro",
+  "one_liner": "U.S. Secretary of State Marco Rubio announced visa restrictions on a Brazilian judge after search warrants and restraining orders were issued against former President Jair Bolsonaro.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant sadness response (50% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "sadness",
+      "prevalence": 50.0,
+      "intensity": 7.506
+    },
+    {
+      "emotion": "anger",
+      "prevalence": 50.0,
+      "intensity": 3.0427083333333336
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "medium",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.355226",
+  "expires_at": "2025-07-19T23:59:59.355230"
+}

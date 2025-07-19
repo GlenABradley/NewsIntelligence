@@ -1,0 +1,38 @@
+{
+  "cluster_id": "23037e06e62c",
+  "analysis_date": "2025-07-19T06:02:34.173586",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 885,
+      "articles": [
+        {
+          "title": "Trump sues Murdoch and Wall Street Journal over Epstein article",
+          "published_at": "2025-07-19T02:47:28",
+          "url": "https://www.bbc.com/news/articles/c23g5xpggzmo",
+          "word_count": 885
+        }
+      ]
+    },
+    "Al Jazeera": {
+      "article_count": 1,
+      "perspective": "international-middle-east",
+      "total_word_count": 44,
+      "articles": [
+        {
+          "title": "Trump sues Wall Street Journal, Rupert Murdoch for $10bn over Epstein story",
+          "published_at": "2025-07-19T01:23:31",
+          "url": "https://www.aljazeera.com/news/2025/7/19/trump-sues-wall-street-journal-rupert-murdoch-for-10bn-over-epstein-story?traffic_source=rss",
+          "word_count": 44
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.7,
+  "perspective_coverage": {
+    "center-international": 1,
+    "international-middle-east": 1
+  },
+  "reliability_assessment": "Coverage based on 2 articles from 2 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 40.0,
+      "admiration": 20.0,
+      "concern": 40.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "Prof Ian Chetter, president of the Vascular Society of Great Britain and Ireland, told the BBC that this is possible",
+      "emotion_type": "joy",
+      "intensity": 5.467874999999999,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"Importantly, there was no evidence of deep vein thrombosis (DVT) or arterial disease,\" he said, and added that Trump \"remains in excellent health\"",
+      "emotion_type": "admiration",
+      "intensity": 4.687199999999999,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "The condition is \"very, very rarely life threatening\", Prof Chetter said",
+      "emotion_type": "concern",
+      "intensity": 4.66,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "After his first annual physical, Trump told reporters that \"overall, I felt I was in very good shape\", and added that he thought he had \"a good heart, a good soul, a very good soul\"",
+      "emotion_type": "joy",
+      "intensity": 4.376716462585034,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "In some cases, chronic venous insufficiency can also cause painful cramps, spasms and leg ulcers",
+      "emotion_type": "concern",
+      "intensity": 3.9636000000000005,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "joy",
+          "intensity": 5.467874999999999,
+          "example": "Prof Ian Chetter, president of the Vascular Society of Great Britain and Ireland, told the BBC that ..."
+        },
+        {
+          "emotion": "admiration",
+          "intensity": 4.687199999999999,
+          "example": "\"Importantly, there was no evidence of deep vein thrombosis (DVT) or arterial disease,\" he said, and..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 4.66,
+          "example": "The condition is \"very, very rarely life threatening\", Prof Chetter said"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.376716462585034,
+          "example": "After his first annual physical, Trump told reporters that \"overall, I felt I was in very good shape..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.9636000000000005,
+          "example": "In some cases, chronic venous insufficiency can also cause painful cramps, spasms and leg ulcers"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 2,
+        "average_intensity": 4.922295731292516,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "concern",
+        "frequency": 2,
+        "average_intensity": 4.3118,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "admiration",
+        "frequency": 1,
+        "average_intensity": 4.687199999999999,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.9636000000000005,
+      "max": 5.467874999999999,
+      "average": 4.631078292517007
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 12,
+    "total_emotional_claims_extracted": 6,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.362400",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

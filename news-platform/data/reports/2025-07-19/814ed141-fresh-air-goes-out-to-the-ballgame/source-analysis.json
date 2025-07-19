@@ -1,0 +1,24 @@
+{
+  "cluster_id": "814ed141912c",
+  "analysis_date": "2025-07-19T06:02:35.253745",
+  "source_metrics": {
+    "NPR News": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 8847,
+      "articles": [
+        {
+          "title": "'Fresh Air' goes out to the ballgame",
+          "published_at": "2025-07-18T18:11:59",
+          "url": "https://www.npr.org/2025/07/18/g-s1-78187/fresh-air-goes-out-to-the-ballgame",
+          "word_count": 8847
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,129 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 1,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.5,
+    "emotional_spectrum_coverage": {
+      "joy": 80.0,
+      "sadness": 20.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "CNN has reached out to these companies for comment",
+      "confidence": 0.96919,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "CNN Top Stories"
+      ],
+      "entities": [
+        "Information",
+        "Ministry",
+        "Technology",
+        "CNN",
+        "Industry"
+      ]
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "Evidence of sophisticated malware in the Pinduoduo app comes amid intense scrutiny of Chinese-developed apps like TikTok over concerns about data security",
+      "emotion_type": "joy",
+      "intensity": 8.316,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "It\u2019s like, super expansive,\u201d he said",
+      "emotion_type": "joy",
+      "intensity": 5.004,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "The app was able to continue running in the background and prevent itself from being uninstalled, which allowed it to boost its monthly active user rates, Hypp\u00f6nen said",
+      "emotion_type": "joy",
+      "intensity": 4.1068125,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "Toshin described Pinduoduo as \u201cthe most dangerous malware\u201d ever found among mainstream apps",
+      "emotion_type": "sadness",
+      "intensity": 3.6792,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    },
+    {
+      "text": "Rise to success Pinduoduo, which boasts a user base that accounts for three quarters of China\u2019s online population and a market value three times that of eBay (EBAY), wasn\u2019t always an online shopping behemoth",
+      "emotion_type": "joy",
+      "intensity": 3.6345,
+      "perspective": "center-left",
+      "source": "CNN Top Stories"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 8.316,
+          "example": "Evidence of sophisticated malware in the Pinduoduo app comes amid intense scrutiny of Chinese-develo..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.004,
+          "example": "It\u2019s like, super expansive,\u201d he said"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.1068125,
+          "example": "The app was able to continue running in the background and prevent itself from being uninstalled, wh..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 3.6792,
+          "example": "Toshin described Pinduoduo as \u201cthe most dangerous malware\u201d ever found among mainstream apps"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 3.6345,
+          "example": "Rise to success Pinduoduo, which boasts a user base that accounts for three quarters of China\u2019s onli..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 4,
+        "average_intensity": 5.265328125,
+        "prevalence": 80.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 3.6792,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.6345,
+      "max": 8.316,
+      "average": 4.948102499999999
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 39,
+    "total_emotional_claims_extracted": 8,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.926224",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 10,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "anger": 40.0,
+      "joy": 20.0,
+      "sadness": 40.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "She told the BBC in a voice message she was \"so happy my heart is overflowing\", adding: \"I'm so thankful to God, to (Venezuelan) President Nicolas Maduro for fighting to free them, to the lawyers there in El Salvador",
+      "emotion_type": "anger",
+      "intensity": 8.5518,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"The only reason they are imprisoned is for having opposed you and your electoral fraud,\" he wrote to Maduro on X",
+      "emotion_type": "anger",
+      "intensity": 7.7829999999999995,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"At the end of the day, everything worked out, everything is fine and everyone is safely on their way to be reunited with their loved ones",
+      "emotion_type": "joy",
+      "intensity": 5.015999999999999,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "He was returned to the US in July to face human trafficking charges - to which he has pleaded not guilty Kilmar \u00c1brego Garc\u00eda alleges torture and abuse in El Salvador prison What is the 1798 law that Trump used to deport migrants",
+      "emotion_type": "sadness",
+      "intensity": 4.9698,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "The Venezuelans being repatriated had originally been deported by the US under the Trump administration to El Salvador earlier this year, under the 1798 Alien Enemies Act, which gives a US president power to detain and deport natives or citizens of \"enemy\" nations without usual processes",
+      "emotion_type": "sadness",
+      "intensity": 4.832437499999999,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"This makes us very happy,\" she told NPR by phone from Lobatera, a town in Venezuela's Tachira state",
+      "emotion_type": "joy",
+      "intensity": 6.115,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "The United States accused many of the men of being gang members and deported them under the Alien Enemies Act, which had not been invoked since World War II",
+      "emotion_type": "sadness",
+      "intensity": 4.736875,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "Today, we have handed over all the Venezuelan nationals detained in our country, accused of being part of the criminal organization Tren de Aragua (TDA)",
+      "emotion_type": "sadness",
+      "intensity": 4.4407000000000005,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "Lawyers for the Venezuelan deportees argue their transfer to El Salvador was illegal",
+      "emotion_type": "anger",
+      "intensity": 3.592,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "Many of them face multiple charges of murder, robbery, rape, and other serious crimes",
+      "emotion_type": "anger",
+      "intensity": 3.5277187499999996,
+      "perspective": "center-left",
+      "source": "NPR News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "anger",
+          "intensity": 8.5518,
+          "example": "She told the BBC in a voice message she was \"so happy my heart is overflowing\", adding: \"I'm so than..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 7.7829999999999995,
+          "example": "\"The only reason they are imprisoned is for having opposed you and your electoral fraud,\" he wrote t..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.015999999999999,
+          "example": "\"At the end of the day, everything worked out, everything is fine and everyone is safely on their wa..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.9698,
+          "example": "He was returned to the US in July to face human trafficking charges - to which he has pleaded not gu..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.832437499999999,
+          "example": "The Venezuelans being repatriated had originally been deported by the US under the Trump administrat..."
+        }
+      ],
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 6.115,
+          "example": "\"This makes us very happy,\" she told NPR by phone from Lobatera, a town in Venezuela's Tachira state"
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.736875,
+          "example": "The United States accused many of the men of being gang members and deported them under the Alien En..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.4407000000000005,
+          "example": "Today, we have handed over all the Venezuelan nationals detained in our country, accused of being pa..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 3.592,
+          "example": "Lawyers for the Venezuelan deportees argue their transfer to El Salvador was illegal"
+        },
+        {
+          "emotion": "anger",
+          "intensity": 3.5277187499999996,
+          "example": "Many of them face multiple charges of murder, robbery, rape, and other serious crimes"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "anger",
+        "frequency": 4,
+        "average_intensity": 5.8636296875,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 4,
+        "average_intensity": 4.744953125,
+        "prevalence": 40.0
+      },
+      {
+        "emotion": "joy",
+        "frequency": 2,
+        "average_intensity": 5.5655,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.5277187499999996,
+      "max": 8.5518,
+      "average": 5.3565331249999995
+    },
+    "perspective_coverage": [
+      "center-international",
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 2,
+    "total_factual_claims_extracted": 44,
+    "total_emotional_claims_extracted": 13,
+    "source_diversity_score": 0.7,
+    "perspective_coverage": {
+      "center-international": 1,
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.264473",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

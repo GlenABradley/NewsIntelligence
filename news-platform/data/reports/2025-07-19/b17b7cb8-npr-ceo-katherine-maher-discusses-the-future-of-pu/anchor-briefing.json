@@ -1,0 +1,50 @@
+{
+  "story_id": "b17b7cb800b0",
+  "headline": "NPR CEO Katherine Maher discusses the future of public radio",
+  "one_liner": "NPR CEO Katherine Maher answers questions on the future of public radio as Congress strips over $1 billion from the Corporation for Public Broadcasting.",
+  "key_facts": [
+    {
+      "fact": "Media NPR CEO Katherine Maher discusses the future of public radio July 18, 2025 6:57 AM ET Heard on Morning Edition By Hosts NPR CEO Katherine Maher discusses the future of public radio Listen \u00b7 11:31 11:31 Transcript Toggle more options Download Embed Embed < iframe src=\"https://www",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "org/player/embed/nx-s1-5471394/nx-s1-9376750\" width=\"100%\" height=\"290\" frameborder=\"0\" scrolling=\"no\" title=\"NPR embedded audio player\"> Transcript",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "Is there going to be an immediate impact from this rescission",
+      "confidence": 0.5,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, media npr ceo katherine maher discusses the future of public radio july 18, 2025 6:57 am et heard on morning edition by hosts npr ceo katherine maher discusses the future of public radio listen \u00b7 11:31 11:31 transcript toggle more options download embed embed < iframe src=\"https://www",
+    "Coverage shows significant concern response (50% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "concern",
+      "prevalence": 50.0,
+      "intensity": 4.939
+    },
+    {
+      "emotion": "joy",
+      "prevalence": 50.0,
+      "intensity": 3.1393074074074074
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.5,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.360055",
+  "expires_at": "2025-07-19T23:59:59.360060"
+}

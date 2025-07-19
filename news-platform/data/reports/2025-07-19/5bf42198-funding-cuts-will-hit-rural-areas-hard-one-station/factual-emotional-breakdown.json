@@ -1,0 +1,158 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 3,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.5,
+    "emotional_spectrum_coverage": {
+      "joy": 40.0,
+      "concern": 60.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "One station manager explains how July 18, 2025 6:35 PM ET Heard on All Things Considered By Juana Summers , Tinbete Ermyas , Jordan-Marie Smith Boise St Public Radio GM Reax Listen \u00b7 7:31 7:31 Transcript Toggle more options Download Embed Embed < iframe src=\"https://www",
+      "confidence": 0.9433333333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Things",
+        "Public",
+        "Heard",
+        "Boise",
+        "One",
+        "All",
+        "July",
+        "Flipboard",
+        "Facebook",
+        "Email"
+      ]
+    },
+    {
+      "text": "org/player/embed/nx-s1-5472460/nx-s1-9377698\" width=\"100%\" height=\"290\" frameborder=\"0\" scrolling=\"no\" title=\"NPR embedded audio player\"> Transcript",
+      "confidence": 0.9225791666666666,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Transcript",
+        "Summers",
+        "Boise",
+        "Tom",
+        "Juana"
+      ]
+    },
+    {
+      "text": "Challis, Idaho, population 920, we have three signals",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "But public radio has been and will continue to be innovative and strong and relevant to people across this country",
+      "emotion_type": "joy",
+      "intensity": 5.750324999999999,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "Tom Michael, welcome",
+      "emotion_type": "concern",
+      "intensity": 4.1292,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "We're popular in our home city",
+      "emotion_type": "concern",
+      "intensity": 3.7935000000000003,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "You know, they're curious people",
+      "emotion_type": "concern",
+      "intensity": 3.182,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "How can we share better and figure this out",
+      "emotion_type": "joy",
+      "intensity": 3.1245000000000003,
+      "perspective": "center-left",
+      "source": "NPR News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 5.750324999999999,
+          "example": "But public radio has been and will continue to be innovative and strong and relevant to people acros..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 4.1292,
+          "example": "Tom Michael, welcome"
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.7935000000000003,
+          "example": "We're popular in our home city"
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.182,
+          "example": "You know, they're curious people"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 3.1245000000000003,
+          "example": "How can we share better and figure this out"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "concern",
+        "frequency": 3,
+        "average_intensity": 3.701566666666667,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "joy",
+        "frequency": 2,
+        "average_intensity": 4.4374125,
+        "prevalence": 40.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.1245000000000003,
+      "max": 5.750324999999999,
+      "average": 3.9959049999999996
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 58,
+    "total_emotional_claims_extracted": 7,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.984291",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

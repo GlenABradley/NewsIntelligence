@@ -1,0 +1,24 @@
+{
+  "cluster_id": "3e6b803ca5aa",
+  "analysis_date": "2025-07-19T06:02:34.349503",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 1353,
+      "articles": [
+        {
+          "title": "Why Prada \u2013 and other luxury brands \u2013 keep getting India wrong",
+          "published_at": "2025-07-18T23:03:55",
+          "url": "https://www.bbc.com/news/articles/cgmwnlnrd1eo",
+          "word_count": 1353
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

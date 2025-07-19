@@ -1,0 +1,106 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 100.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "Prada told the BBC that it held a \"successful meeting\" with the Maharashtra Chamber of Commerce, Industry & Agriculture, a prominent industry trade group",
+      "emotion_type": "joy",
+      "intensity": 7.087275,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "It is an opportunity for India, too, to reflect on the ways it can support its own heritage and uplift it",
+      "emotion_type": "joy",
+      "intensity": 6.705,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"But their love and respect for Indian heritage is genuine",
+      "emotion_type": "joy",
+      "intensity": 4.944500000000001,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "But critics point out that any borrowing needs to be underpinned by respect and acknowledgement, especially when these ideas are repurposed by powerful global brands to be sold at incredibly high prices",
+      "emotion_type": "joy",
+      "intensity": 4.589145,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"We might not be the fastest-growing luxury market like China, but a younger and more sophisticated generation of Indians with different tastes and aspirations is reshaping the landscape of luxury,\" says Nonita Kalra, editor-in-chief of online luxury store Tata CliQ Luxury",
+      "emotion_type": "joy",
+      "intensity": 4.17795,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "joy",
+          "intensity": 7.087275,
+          "example": "Prada told the BBC that it held a \"successful meeting\" with the Maharashtra Chamber of Commerce, Ind..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.705,
+          "example": "It is an opportunity for India, too, to reflect on the ways it can support its own heritage and upli..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.944500000000001,
+          "example": "\"But their love and respect for Indian heritage is genuine"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.589145,
+          "example": "But critics point out that any borrowing needs to be underpinned by respect and acknowledgement, esp..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.17795,
+          "example": "\"We might not be the fastest-growing luxury market like China, but a younger and more sophisticated ..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 5,
+        "average_intensity": 5.500774000000001,
+        "prevalence": 100.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 4.17795,
+      "max": 7.087275,
+      "average": 5.500774000000001
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 19,
+    "total_emotional_claims_extracted": 8,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.349458",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

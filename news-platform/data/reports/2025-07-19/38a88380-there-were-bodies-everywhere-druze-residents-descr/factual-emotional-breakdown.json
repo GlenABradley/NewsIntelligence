@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "sadness": 60.0,
+      "anger": 20.0,
+      "concern": 20.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "Reuters Syria's interim president said government forces had expelled \"outlaw groups\" in Suweida Nayef, a Druze man whose name we have also changed, was also confronted with horrific scenes in Suweida",
+      "emotion_type": "sadness",
+      "intensity": 8.02,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"One of the worst feelings ever is to keep waiting for people to come into your house and decide whether we should live or die,\" she recalled, her voice still trembling with fear",
+      "emotion_type": "anger",
+      "intensity": 6.965249999999999,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "They say nice things about freedoms, documenting violations and accountability, but they are all lies",
+      "emotion_type": "sadness",
+      "intensity": 5.2669999999999995,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\" Many Suweida residents say this latest episode of sectarian violence will have long-lasting effects",
+      "emotion_type": "sadness",
+      "intensity": 4.3743,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Some of these fighters posted videos of themselves online humiliating men in Suweida, including cutting or shaving off the moustaches of Druze sheikhs",
+      "emotion_type": "concern",
+      "intensity": 3.9636000000000005,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "sadness",
+          "intensity": 8.02,
+          "example": "Reuters Syria's interim president said government forces had expelled \"outlaw groups\" in Suweida Nay..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 6.965249999999999,
+          "example": "\"One of the worst feelings ever is to keep waiting for people to come into your house and decide whe..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 5.2669999999999995,
+          "example": "They say nice things about freedoms, documenting violations and accountability, but they are all lie..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 4.3743,
+          "example": "\" Many Suweida residents say this latest episode of sectarian violence will have long-lasting effect..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.9636000000000005,
+          "example": "Some of these fighters posted videos of themselves online humiliating men in Suweida, including cutt..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "sadness",
+        "frequency": 3,
+        "average_intensity": 5.887099999999999,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 6.965249999999999,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 3.9636000000000005,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.9636000000000005,
+      "max": 8.02,
+      "average": 5.718029999999999
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 22,
+    "total_emotional_claims_extracted": 8,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.209876",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

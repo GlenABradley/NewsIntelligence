@@ -1,0 +1,96 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 3,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "anger": 33.33333333333333,
+      "joy": 33.33333333333333,
+      "concern": 33.33333333333333
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "The eight defendants are accused of five charges: attempting to stage a coup, involvement in an armed criminal organisation, attempted violent abolition of the democratic rule of law, aggravated damage and deterioration of listed heritage",
+      "emotion_type": "anger",
+      "intensity": 7.357075000000001,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "Late on Friday, US Secretary of State Marco Rubio said he had ordered \"visa revocations for Moraes and his allies on the court, as well as their immediate family members effective immediately\"",
+      "emotion_type": "joy",
+      "intensity": 4.4583,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "If found guilty, Bolsonaro, 70, could face decades behind bars",
+      "emotion_type": "concern",
+      "intensity": 3.5827499999999994,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "anger",
+          "intensity": 7.357075000000001,
+          "example": "The eight defendants are accused of five charges: attempting to stage a coup, involvement in an arme..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.4583,
+          "example": "Late on Friday, US Secretary of State Marco Rubio said he had ordered \"visa revocations for Moraes a..."
+        },
+        {
+          "emotion": "concern",
+          "intensity": 3.5827499999999994,
+          "example": "If found guilty, Bolsonaro, 70, could face decades behind bars"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 7.357075000000001,
+        "prevalence": 33.33333333333333
+      },
+      {
+        "emotion": "joy",
+        "frequency": 1,
+        "average_intensity": 4.4583,
+        "prevalence": 33.33333333333333
+      },
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 3.5827499999999994,
+        "prevalence": 33.33333333333333
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.5827499999999994,
+      "max": 7.357075000000001,
+      "average": 5.132708333333333
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 13,
+    "total_emotional_claims_extracted": 3,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.227264",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

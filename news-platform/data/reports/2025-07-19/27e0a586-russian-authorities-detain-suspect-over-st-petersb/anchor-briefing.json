@@ -1,0 +1,55 @@
+{
+  "story_id": "27e0a5864bce",
+  "headline": "Russian authorities detain suspect over St. Petersburg cafe blast",
+  "one_liner": "Russian authorities detain suspect over St. Petersburg cafe blast",
+  "key_facts": [
+    {
+      "fact": "Finland is set to become a member of the alliance on Tuesday, with Finnish President Sauli Niinist\u00f6 traveling to Brussels to attend an accession ceremony at NATO headquarters",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    },
+    {
+      "fact": "(The Wall Street Journal/Reuters) Wall Street Journal reporter Evan Gershkovich has filed an appeal against his arrest , according to the Russian state news agency TASS",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    },
+    {
+      "fact": "Petersburg, Russia, will take place on Tuesday at Basmanny District Court in Moscow, according to Russian state news agency Vesti",
+      "confidence": 0.5,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, finland is set to become a member of the alliance on tuesday, with finnish president sauli niinist\u00f6 traveling to brussels to attend an accession ceremony at nato headquarters",
+    "Coverage shows significant joy response (40% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 40.0,
+      "intensity": 7.3134
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 40.0,
+      "intensity": 7.184
+    },
+    {
+      "emotion": "anger",
+      "prevalence": 20.0,
+      "intensity": 6.3027
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.4572916666666666,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "medium",
+    "follow_up_potential": "high"
+  },
+  "generated_at": "2025-07-19T06:02:35.352015",
+  "expires_at": "2025-07-19T23:59:59.352019"
+}

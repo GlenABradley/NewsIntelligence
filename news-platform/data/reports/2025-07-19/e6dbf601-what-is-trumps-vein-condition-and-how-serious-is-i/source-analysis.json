@@ -1,0 +1,24 @@
+{
+  "cluster_id": "e6dbf601936d",
+  "analysis_date": "2025-07-19T06:02:34.362438",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 791,
+      "articles": [
+        {
+          "title": "What is Trump's vein condition and how serious is it?",
+          "published_at": "2025-07-18T12:05:11",
+          "url": "https://www.bbc.com/news/articles/c79qgrj3p5vo",
+          "word_count": 791
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 3,
+    "total_emotional_claims": 2,
+    "factual_consensus_score": 0.5,
+    "emotional_spectrum_coverage": {
+      "concern": 50.0,
+      "joy": 50.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "Media NPR CEO Katherine Maher discusses the future of public radio July 18, 2025 6:57 AM ET Heard on Morning Edition By Hosts NPR CEO Katherine Maher discusses the future of public radio Listen \u00b7 11:31 11:31 Transcript Toggle more options Download Embed Embed < iframe src=\"https://www",
+      "confidence": 0.9592777777777779,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Katherine",
+        "Flipboard",
+        "CEO",
+        "Maher",
+        "NPR",
+        "Media",
+        "Facebook",
+        "Email"
+      ]
+    },
+    {
+      "text": "org/player/embed/nx-s1-5471394/nx-s1-9376750\" width=\"100%\" height=\"290\" frameborder=\"0\" scrolling=\"no\" title=\"NPR embedded audio player\"> Transcript",
+      "confidence": 0.9913888888888889,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Katherine",
+        "Transcript",
+        "CEO",
+        "Maher",
+        "NPR"
+      ]
+    },
+    {
+      "text": "Is there going to be an immediate impact from this rescission",
+      "confidence": 0.9933333333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "INSKEEP: (Laughter)",
+      "emotion_type": "concern",
+      "intensity": 4.939,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "INSKEEP: Katherine, as I'm sure you know very well, public media had some Republican support",
+      "emotion_type": "joy",
+      "intensity": 3.1393074074074074,
+      "perspective": "center-left",
+      "source": "NPR News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "concern",
+          "intensity": 4.939,
+          "example": "INSKEEP: (Laughter)"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 3.1393074074074074,
+          "example": "INSKEEP: Katherine, as I'm sure you know very well, public media had some Republican support"
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "concern",
+        "frequency": 1,
+        "average_intensity": 4.939,
+        "prevalence": 50.0
+      },
+      {
+        "emotion": "joy",
+        "frequency": 1,
+        "average_intensity": 3.1393074074074074,
+        "prevalence": 50.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.1393074074074074,
+      "max": 4.939,
+      "average": 4.039153703703704
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 47,
+    "total_emotional_claims_extracted": 2,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:35.304941",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

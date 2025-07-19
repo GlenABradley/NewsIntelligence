@@ -1,0 +1,96 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 3,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "joy": 33.33333333333333,
+      "anger": 33.33333333333333,
+      "sadness": 33.33333333333333
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "All three men were assigned to the Special Enforcement Bureau's Arson Explosives Detail and were described as brave men who served with honor, courage, and an unwavering commitment to protecting and serving the community, the Los Angeles County Sheriff\u2019s Department said",
+      "emotion_type": "joy",
+      "intensity": 7.336214285714285,
+      "perspective": "center-right",
+      "source": "Fox News"
+    },
+    {
+      "text": "The devastating explosion has been considered one of the agency\u2019s deadliest internal tragedies in years",
+      "emotion_type": "anger",
+      "intensity": 4.01,
+      "perspective": "center-right",
+      "source": "Fox News"
+    },
+    {
+      "text": "HUMAN REMAINS DISCOVERED DAYS AFTER DEVASTATING CALIFORNIA FIREWORKS FACILITY EXPLOSION Detective Victor Lemus began his career at LASD in 2003 where he served at Twin Towers and Century Station",
+      "emotion_type": "sadness",
+      "intensity": 3.96715,
+      "perspective": "center-right",
+      "source": "Fox News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-right": [
+        {
+          "emotion": "joy",
+          "intensity": 7.336214285714285,
+          "example": "All three men were assigned to the Special Enforcement Bureau's Arson Explosives Detail and were des..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 4.01,
+          "example": "The devastating explosion has been considered one of the agency\u2019s deadliest internal tragedies in ye..."
+        },
+        {
+          "emotion": "sadness",
+          "intensity": 3.96715,
+          "example": "HUMAN REMAINS DISCOVERED DAYS AFTER DEVASTATING CALIFORNIA FIREWORKS FACILITY EXPLOSION Detective Vi..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 1,
+        "average_intensity": 7.336214285714285,
+        "prevalence": 33.33333333333333
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 4.01,
+        "prevalence": 33.33333333333333
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 3.96715,
+        "prevalence": 33.33333333333333
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 3.96715,
+      "max": 7.336214285714285,
+      "average": 5.104454761904762
+    },
+    "perspective_coverage": [
+      "center-right"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 17,
+    "total_emotional_claims_extracted": 3,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-right": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:35.337795",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

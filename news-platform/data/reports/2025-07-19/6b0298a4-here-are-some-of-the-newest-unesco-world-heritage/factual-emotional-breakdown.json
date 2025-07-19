@@ -1,0 +1,98 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 2,
+    "total_emotional_claims": 1,
+    "factual_consensus_score": 0.3333333333333333,
+    "emotional_spectrum_coverage": {
+      "anger": 100.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "Ecosystems of the Bijag\u00f3s Islands Wildlife in Orango National Park on the Bijag\u00f3s Archipelago",
+      "confidence": 0.9393939393939394,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Orango",
+        "UNESCO",
+        "Here",
+        "Wildlife",
+        "Bijag\u00f3s",
+        "Islands",
+        "The",
+        "World",
+        "Heritage",
+        "Site",
+        "Ecosystems"
+      ]
+    },
+    {
+      "text": "Beck/UNESCO Nomination File hide caption toggle caption J",
+      "confidence": 0.9466300000000002,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Administrative",
+        "Enrique",
+        "Nomination",
+        "File",
+        "Office",
+        "Xixia",
+        "Area",
+        "Tomb"
+      ]
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "He ascended to the throne at age 18 and has been called the \" Mad King ,\" because of his long rants, hallucinations and paranoia",
+      "emotion_type": "anger",
+      "intensity": 5.305299999999999,
+      "perspective": "center-left",
+      "source": "NPR News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "anger",
+          "intensity": 5.305299999999999,
+          "example": "He ascended to the throne at age 18 and has been called the \" Mad King ,\" because of his long rants,..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 5.305299999999999,
+        "prevalence": 100.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 5.305299999999999,
+      "max": 5.305299999999999,
+      "average": 5.305299999999999
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 30,
+    "total_emotional_claims_extracted": 1,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:35.271145",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "story_id": "ed12939ffcd1",
+  "headline": "Colombian gold miners rescued after about 18 hours trapped underground",
+  "one_liner": "Eighteen miners are in good health after a 12-hour-long rescue operation, Colombia's National Mining Agency says.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (100% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 100.0,
+      "intensity": 4.4106000000000005
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.360973",
+  "expires_at": "2025-07-19T23:59:59.360977"
+}

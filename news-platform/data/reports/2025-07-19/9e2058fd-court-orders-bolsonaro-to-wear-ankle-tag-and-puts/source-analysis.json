@@ -1,0 +1,24 @@
+{
+  "cluster_id": "9e2058fd097f",
+  "analysis_date": "2025-07-19T06:02:34.227308",
+  "source_metrics": {
+    "BBC World News": {
+      "article_count": 1,
+      "perspective": "center-international",
+      "total_word_count": 839,
+      "articles": [
+        {
+          "title": "Court orders Bolsonaro to wear ankle tag and puts him under curfew",
+          "published_at": "2025-07-19T03:42:46",
+          "url": "https://www.bbc.com/news/articles/cx2nkvypqx3o",
+          "word_count": 839
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-international": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

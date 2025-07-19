@@ -1,0 +1,38 @@
+{
+  "story_id": "ac7d79a02617",
+  "headline": "Labor moves to bolster penalty rates and overtime pay protections for millions of workers",
+  "one_liner": "Legislation will prevent award wage penalty rates from being cut in exchange for higher rates of base pay if it will leave workers worse offGet our breaking news email, free app or daily news podcastW...",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant joy response (60% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 60.0,
+      "intensity": 5.93384
+    },
+    {
+      "emotion": "concern",
+      "prevalence": 20.0,
+      "intensity": 3.612
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 20.0,
+      "intensity": 3.4105499999999997
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.356046",
+  "expires_at": "2025-07-19T23:59:59.356050"
+}

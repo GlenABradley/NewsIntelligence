@@ -1,0 +1,38 @@
+{
+  "story_id": "ec3decb4adaf",
+  "headline": "El Salvador and US negotiate prisoner swap with Venezuela",
+  "one_liner": "Some 250 Venezuelans deported from the US to El Salvador were exchanged for 10 Americans held by Caracas.",
+  "key_facts": [],
+  "talking_points": [
+    "Coverage shows significant anger response (40% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "anger",
+      "prevalence": 40.0,
+      "intensity": 5.8636296875
+    },
+    {
+      "emotion": "sadness",
+      "prevalence": 40.0,
+      "intensity": 4.744953125
+    },
+    {
+      "emotion": "joy",
+      "prevalence": 20.0,
+      "intensity": 5.5655
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.0,
+    "total_sources": 2,
+    "perspective_diversity": 2
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.343304",
+  "expires_at": "2025-07-19T23:59:59.343308"
+}

@@ -1,0 +1,120 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.0,
+    "emotional_spectrum_coverage": {
+      "sadness": 20.0,
+      "anger": 20.0,
+      "joy": 60.0
+    }
+  },
+  "factual_claims": [],
+  "emotional_claims": [
+    {
+      "text": "Eleanora, seen with her daughter and father, says seeing her child's school close was a sad day \"We get monthly cheques but we need practical support, too, like free summer camps for the children,\" she says, pointing to the three-month school holiday from June that can be a nightmare for parents who work",
+      "emotion_type": "sadness",
+      "intensity": 8.3646,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\" Nationwide problem Italy's demographic crisis extends far beyond Fregona and it is deepening",
+      "emotion_type": "anger",
+      "intensity": 7.43,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"It's not the \u20ac1,000 payments that make a difference, but having services like free kindergartens",
+      "emotion_type": "joy",
+      "intensity": 6.6168000000000005,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "\"I am lucky to have my grandmother take care of my daughter",
+      "emotion_type": "joy",
+      "intensity": 5.986666666666666,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    },
+    {
+      "text": "The pretty town of Fregona at the foot of the mountains is emptying out like many here, as Italians have fewer children and increasingly migrate to bigger places or move abroad",
+      "emotion_type": "joy",
+      "intensity": 4.1659999999999995,
+      "perspective": "center-international",
+      "source": "BBC World News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-international": [
+        {
+          "emotion": "sadness",
+          "intensity": 8.3646,
+          "example": "Eleanora, seen with her daughter and father, says seeing her child's school close was a sad day \"We ..."
+        },
+        {
+          "emotion": "anger",
+          "intensity": 7.43,
+          "example": "\" Nationwide problem Italy's demographic crisis extends far beyond Fregona and it is deepening"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.6168000000000005,
+          "example": "\"It's not the \u20ac1,000 payments that make a difference, but having services like free kindergartens"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 5.986666666666666,
+          "example": "\"I am lucky to have my grandmother take care of my daughter"
+        },
+        {
+          "emotion": "joy",
+          "intensity": 4.1659999999999995,
+          "example": "The pretty town of Fregona at the foot of the mountains is emptying out like many here, as Italians ..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 3,
+        "average_intensity": 5.589822222222222,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "sadness",
+        "frequency": 1,
+        "average_intensity": 8.3646,
+        "prevalence": 20.0
+      },
+      {
+        "emotion": "anger",
+        "frequency": 1,
+        "average_intensity": 7.43,
+        "prevalence": 20.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 4.1659999999999995,
+      "max": 8.3646,
+      "average": 6.512813333333332
+    },
+    "perspective_coverage": [
+      "center-international"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 22,
+    "total_emotional_claims_extracted": 12,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-international": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:34.289189",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

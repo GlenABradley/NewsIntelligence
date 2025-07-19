@@ -1,0 +1,24 @@
+{
+  "cluster_id": "27e0a5864bce",
+  "analysis_date": "2025-07-19T06:02:34.887621",
+  "source_metrics": {
+    "CNN Top Stories": {
+      "article_count": 1,
+      "perspective": "center-left",
+      "total_word_count": 8458,
+      "articles": [
+        {
+          "title": "Russian authorities detain suspect over St. Petersburg cafe blast",
+          "published_at": "2025-07-19T06:02:00.167206",
+          "url": "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+          "word_count": 8458
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.6,
+  "perspective_coverage": {
+    "center-left": 1
+  },
+  "reliability_assessment": "Coverage based on 1 articles from 1 sources. Limited source diversity - additional perspectives recommended."
+}

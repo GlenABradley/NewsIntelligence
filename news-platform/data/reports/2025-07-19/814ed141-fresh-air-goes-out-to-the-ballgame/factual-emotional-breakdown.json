@@ -1,0 +1,306 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 17,
+    "total_emotional_claims": 5,
+    "factual_consensus_score": 0.4627450980392157,
+    "emotional_spectrum_coverage": {
+      "joy": 60.0,
+      "admiration": 40.0
+    }
+  },
+  "factual_claims": [
+    {
+      "text": "And - but he was, you know, the bat was over",
+      "confidence": 0.953748024691358,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "And",
+        "Mets"
+      ]
+    },
+    {
+      "text": "What's the posture that you want to never show on the mount",
+      "confidence": 0.9768399999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "And"
+      ]
+    },
+    {
+      "text": "You will see the pitcher get the ball back and then almost go into the windup immediately",
+      "confidence": 0.9776278095238095,
+      "consensus_level": 0.2,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "You"
+      ]
+    },
+    {
+      "text": "You could never tell what you were thinking",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "You",
+        "Could"
+      ]
+    },
+    {
+      "text": "DAVIES: Now, I want to talk about collisions at the plate",
+      "confidence": 0.9230749999999999,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    },
+    {
+      "text": "I can't believe you did that",
+      "confidence": 0.9775,
+      "consensus_level": 0.3333333333333333,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "And",
+        "Scooter"
+      ]
+    },
+    {
+      "text": "You can be ejected for it",
+      "confidence": 0.9830555555555556,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "And",
+        "You"
+      ]
+    },
+    {
+      "text": "That's what I was thinking about",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    },
+    {
+      "text": "PIAZZA: I would say it was",
+      "confidence": 0.941055,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    },
+    {
+      "text": "DAVIES: Jamie Moyer recorded in 2013",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Jamie",
+        "Moyer",
+        "Veteran"
+      ]
+    },
+    {
+      "text": "You do it prior to the game",
+      "confidence": 0.9012383333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "You"
+      ]
+    },
+    {
+      "text": "Also, John Powers reviews \"Cloud,\" the new psychological thriller from Japanese director Kiyoshi Kurosawa",
+      "confidence": 0.9322203030303031,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Coming",
+        "Japanese",
+        "Powers",
+        "John",
+        "Kurosawa",
+        "Kiyoshi"
+      ]
+    },
+    {
+      "text": "LA RUSSA: That's the kindest thing to say",
+      "confidence": 0.95902,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": []
+    },
+    {
+      "text": "DAVIES: Was it hard getting back",
+      "confidence": 0.9129400000000001,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "Was"
+      ]
+    },
+    {
+      "text": "(SOUNDBITE OF ARCHIVED NPR CONTENT) DAVIES: And then his explanation to you and the umpire is, I thought it was the ball",
+      "confidence": 1.0,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "NPR",
+        "ARCHIVED",
+        "And"
+      ]
+    },
+    {
+      "text": "And then then pull my pants back up, and I'd go pitch with it",
+      "confidence": 0.9552105555555555,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "And"
+      ]
+    },
+    {
+      "text": "I was really concerned that you're going to be able to see it through my white pants",
+      "confidence": 0.9408333333333334,
+      "consensus_level": 0.5,
+      "supporting_sources": [
+        "NPR News"
+      ],
+      "entities": [
+        "But"
+      ]
+    }
+  ],
+  "emotional_claims": [
+    {
+      "text": "So I never shied away, and as you can tell by my stats, I always had pretty good bats against them as well",
+      "emotion_type": "joy",
+      "intensity": 6.416,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "But yeah, I mean, it's one of those things, too, where you can take a 300-pound lineman football player and a real tough guy and then put him in a cage and have the ball come at him, and he looks like, you know, a little girl, you know (laughter)",
+      "emotion_type": "joy",
+      "intensity": 6.2890625,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "Sometimes, if you're a better player, you know, if you're an outstanding hitter or something or an outstanding pitcher, then you can just do your strength so well that pieces of it are not that necessary unless you personally make it a point to be a complete player",
+      "emotion_type": "admiration",
+      "intensity": 6.257458333333333,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "I noticed, for example, a guy that I respect a great deal, Roger Craig, who manages the Giants here",
+      "emotion_type": "joy",
+      "intensity": 6.015000000000001,
+      "perspective": "center-left",
+      "source": "NPR News"
+    },
+    {
+      "text": "So if I look at a star, I know a star can be an outstanding manager, but did that star have enough interest in the total game to be involved and really want to be a great base runner",
+      "emotion_type": "admiration",
+      "intensity": 5.964535714285714,
+      "perspective": "center-left",
+      "source": "NPR News"
+    }
+  ],
+  "emotional_overlay": {
+    "perspective_emotions": {
+      "center-left": [
+        {
+          "emotion": "joy",
+          "intensity": 6.416,
+          "example": "So I never shied away, and as you can tell by my stats, I always had pretty good bats against them a..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.2890625,
+          "example": "But yeah, I mean, it's one of those things, too, where you can take a 300-pound lineman football pla..."
+        },
+        {
+          "emotion": "admiration",
+          "intensity": 6.257458333333333,
+          "example": "Sometimes, if you're a better player, you know, if you're an outstanding hitter or something or an o..."
+        },
+        {
+          "emotion": "joy",
+          "intensity": 6.015000000000001,
+          "example": "I noticed, for example, a guy that I respect a great deal, Roger Craig, who manages the Giants here"
+        },
+        {
+          "emotion": "admiration",
+          "intensity": 5.964535714285714,
+          "example": "So if I look at a star, I know a star can be an outstanding manager, but did that star have enough i..."
+        }
+      ]
+    },
+    "dominant_emotions": [
+      {
+        "emotion": "joy",
+        "frequency": 3,
+        "average_intensity": 6.240020833333333,
+        "prevalence": 60.0
+      },
+      {
+        "emotion": "admiration",
+        "frequency": 2,
+        "average_intensity": 6.1109970238095235,
+        "prevalence": 40.0
+      }
+    ],
+    "emotional_intensity_range": {
+      "min": 5.964535714285714,
+      "max": 6.416,
+      "average": 6.18841130952381
+    },
+    "perspective_coverage": [
+      "center-left"
+    ]
+  },
+  "processing_metadata": {
+    "total_articles_analyzed": 1,
+    "total_factual_claims_extracted": 226,
+    "total_emotional_claims_extracted": 66,
+    "source_diversity_score": 0.6,
+    "perspective_coverage": {
+      "center-left": 1
+    },
+    "processing_timestamp": "2025-07-19T06:02:35.253701",
+    "pipeline_version": "news_intelligence_v1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "story_id": "5bf421987bfb",
+  "headline": "Funding cuts will hit rural areas hard. One station manager explains how",
+  "one_liner": "NPR's Juana Summers speaks with Tom Michael, general manager of Boise State Public Radio, about what the cuts to federal public media funding mean for his station.",
+  "key_facts": [
+    {
+      "fact": "One station manager explains how July 18, 2025 6:35 PM ET Heard on All Things Considered By Juana Summers , Tinbete Ermyas , Jordan-Marie Smith Boise St Public Radio GM Reax Listen \u00b7 7:31 7:31 Transcript Toggle more options Download Embed Embed < iframe src=\"https://www",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "org/player/embed/nx-s1-5472460/nx-s1-9377698\" width=\"100%\" height=\"290\" frameborder=\"0\" scrolling=\"no\" title=\"NPR embedded audio player\"> Transcript",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "Challis, Idaho, population 920, we have three signals",
+      "confidence": 0.5,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, one station manager explains how july 18, 2025 6:35 pm et heard on all things considered by juana summers , tinbete ermyas , jordan-marie smith boise st public radio gm reax listen \u00b7 7:31 7:31 transcript toggle more options download embed embed < iframe src=\"https://www",
+    "Coverage shows significant concern response (60% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "concern",
+      "prevalence": 60.0,
+      "intensity": 3.701566666666667
+    },
+    {
+      "emotion": "joy",
+      "prevalence": 40.0,
+      "intensity": 4.4374125
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.5,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "medium"
+  },
+  "generated_at": "2025-07-19T06:02:35.357011",
+  "expires_at": "2025-07-19T23:59:59.357016"
+}

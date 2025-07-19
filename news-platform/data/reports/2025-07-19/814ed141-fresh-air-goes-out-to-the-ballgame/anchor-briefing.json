@@ -1,0 +1,50 @@
+{
+  "story_id": "814ed141912c",
+  "headline": "'Fresh Air' goes out to the ballgame",
+  "one_liner": "After a memorable All-Star game, today we listen back to some favorite baseball interviews from the Fresh Air archives: conversations with Jamie Moyer, Mike Piazza, Tony La Russa and Brad Ausmus.",
+  "key_facts": [
+    {
+      "fact": "And - but he was, you know, the bat was over",
+      "confidence": 0.3333333333333333,
+      "sources": 1
+    },
+    {
+      "fact": "What's the posture that you want to never show on the mount",
+      "confidence": 0.5,
+      "sources": 1
+    },
+    {
+      "fact": "You will see the pitcher get the ball back and then almost go into the windup immediately",
+      "confidence": 0.2,
+      "sources": 1
+    }
+  ],
+  "talking_points": [
+    "According to 1 sources, and - but he was, you know, the bat was over",
+    "Coverage shows significant joy response (60% of emotional content)"
+  ],
+  "emotional_angles": [
+    {
+      "emotion": "joy",
+      "prevalence": 60.0,
+      "intensity": 6.240020833333333
+    },
+    {
+      "emotion": "admiration",
+      "prevalence": 40.0,
+      "intensity": 6.1109970238095235
+    }
+  ],
+  "source_confidence": {
+    "factual_consensus": 0.4627450980392157,
+    "total_sources": 1,
+    "perspective_diversity": 1
+  },
+  "broadcast_notes": {
+    "story_complexity": "low",
+    "controversy_level": "low",
+    "follow_up_potential": "high"
+  },
+  "generated_at": "2025-07-19T06:02:35.358014",
+  "expires_at": "2025-07-19T23:59:59.358018"
+}
