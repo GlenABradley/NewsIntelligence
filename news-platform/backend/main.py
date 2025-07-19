@@ -11,13 +11,13 @@ from fastapi.responses import JSONResponse
 import uvicorn
 
 # Import API routers
-from .api.news_endpoints import router as news_router
-from .api.report_endpoints import router as reports_router
+from api.news_endpoints import router as news_router
+from api.report_endpoints import router as reports_router
 
 # Import core components
-from .core.config import settings
-from .core.database import init_database, close_database, health_check
-from .workers.daily_processor import start_daily_processor, stop_daily_processor
+from core.config import settings
+from core.database import init_database, close_database, health_check
+from workers.daily_processor import start_daily_processor, stop_daily_processor
 
 # Configure logging
 logging.basicConfig(
