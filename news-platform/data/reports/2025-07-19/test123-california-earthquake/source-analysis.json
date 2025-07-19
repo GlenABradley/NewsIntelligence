@@ -1,0 +1,24 @@
+{
+  "cluster_id": "test123",
+  "analysis_date": "2025-07-19T05:39:55.381468",
+  "source_metrics": {
+    "Reuters Top News": {
+      "article_count": 1,
+      "perspective": "center-wire",
+      "total_word_count": 0,
+      "articles": [
+        {
+          "title": "Breaking: Major earthquake hits California",
+          "published_at": "2025-07-19T05:39:55.381371",
+          "url": "http://example.com/1",
+          "word_count": null
+        }
+      ]
+    }
+  },
+  "diversity_score": 0.0,
+  "perspective_coverage": {
+    "center-wire": 1
+  },
+  "reliability_assessment": "Test reliability notes"
+}

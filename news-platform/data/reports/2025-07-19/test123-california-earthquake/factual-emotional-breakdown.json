@@ -1,0 +1,12 @@
+{
+  "analysis_summary": {
+    "total_factual_claims": 0,
+    "total_emotional_claims": 0,
+    "factual_consensus_score": 0.8,
+    "emotional_spectrum_coverage": {}
+  },
+  "factual_claims": [],
+  "emotional_claims": [],
+  "emotional_overlay": {},
+  "processing_metadata": {}
+}
