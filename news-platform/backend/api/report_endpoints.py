@@ -28,7 +28,7 @@ async def reports_api_status():
     }
 
 @router.get("/daily/{report_date}", summary="Get Daily Report Files")
-async def get_daily_reports(report_date: str = Query(..., description="Date in YYYY-MM-DD format")):
+async def get_daily_reports(report_date: str):
     """Get all report files for a specific date"""
     try:
         # Parse date
