@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     
     # Report Configuration
     REPORTS_BASE_PATH: str = "/app/news-platform/data/reports"
-    EXPORT_FORMATS: List[str] = ["markdown", "pdf", "json"]
+    EXPORT_FORMATS: str = "markdown,pdf,json"  # Will be split into list
     
     # Impact Assessment (Placeholder for your data science machine)
     IMPACT_ASSESSMENT_ENABLED: bool = False  # Your module will enable this
@@ -39,6 +39,11 @@ class Settings(BaseSettings):
     
     # Processing Configuration
     ENABLE_MANUAL_PROCESSING: bool = True  # Allow manual triggers for testing
+    
+    @property
+    def export_formats_list(self) -> List[str]:
+        """Convert export formats string to list"""
+        return [fmt.strip() for fmt in self.EXPORT_FORMATS.split(",")]
     
     class Config:
         env_file = ".env"
