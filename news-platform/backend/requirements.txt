@@ -1,0 +1,64 @@
+# News Intelligence Platform - Python Dependencies
+
+# Core FastAPI and web framework
+fastapi==0.110.1
+uvicorn==0.25.0
+pydantic>=2.6.4
+python-multipart>=0.0.9
+
+# Database
+motor==3.3.1
+pymongo==4.5.0
+
+# HTTP client and web scraping
+aiohttp>=3.9.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# RSS feed parsing
+feedparser>=6.0.0
+
+# Content extraction and NLP
+html2text>=2020.1.16
+readability-lxml>=0.8.1
+
+# Sentiment analysis (dual pipeline)
+vaderSentiment>=3.3.2
+textblob>=0.17.1
+spacy>=3.7.2
+
+# Machine learning and data science
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Scheduling and background tasks
+APScheduler>=3.10.0
+
+# Date and time handling
+python-dateutil>=2.9.0
+pytz>=2024.1
+
+# Logging and monitoring
+structlog>=23.2.0
+
+# Configuration and environment
+python-dotenv>=1.0.1
+
+# File handling and export
+pathlib2>=2.3.7
+
+# PDF generation (optional - uncomment when needed)
+# reportlab>=4.0.0
+# weasyprint>=60.0
+
+# Development and testing
+pytest>=8.0.0
+black>=24.1.1
+isort>=5.13.2
+flake8>=7.0.0
+
+# Utilities
+typer>=0.9.0
+click>=8.1.0

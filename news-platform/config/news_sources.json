@@ -1,0 +1,118 @@
+{
+  "free_rss_feeds": [
+    {
+      "name": "BBC World News",
+      "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "international",
+      "perspective": "center-international",
+      "reliability_score": 9.0,
+      "update_frequency": "15min"
+    },
+    {
+      "name": "Reuters Top News", 
+      "url": "http://feeds.reuters.com/reuters/topNews",
+      "category": "breaking",
+      "perspective": "center-wire",
+      "reliability_score": 9.5,
+      "update_frequency": "15min"
+    },
+    {
+      "name": "AP News",
+      "url": "https://rsshub.app/ap/topics/apf-topnews",
+      "category": "breaking",
+      "perspective": "center-wire",
+      "reliability_score": 9.5,
+      "update_frequency": "15min"
+    },
+    {
+      "name": "NPR News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "national",
+      "perspective": "center-left",
+      "reliability_score": 8.5,
+      "update_frequency": "30min"
+    },
+    {
+      "name": "CNN Top Stories",
+      "url": "http://rss.cnn.com/rss/edition.rss",
+      "category": "breaking",
+      "perspective": "center-left",
+      "reliability_score": 7.5,
+      "update_frequency": "15min"
+    },
+    {
+      "name": "Fox News",
+      "url": "http://feeds.foxnews.com/foxnews/latest",
+      "category": "breaking",
+      "perspective": "center-right", 
+      "reliability_score": 7.0,
+      "update_frequency": "15min"
+    },
+    {
+      "name": "Washington Post",
+      "url": "http://feeds.washingtonpost.com/rss/national",
+      "category": "national",
+      "perspective": "center-left",
+      "reliability_score": 8.0,
+      "update_frequency": "30min"
+    },
+    {
+      "name": "Wall Street Journal",
+      "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+      "category": "business",
+      "perspective": "center-right",
+      "reliability_score": 8.5,
+      "update_frequency": "30min"
+    },
+    {
+      "name": "Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "international",
+      "perspective": "left-international",
+      "reliability_score": 8.0,
+      "update_frequency": "30min"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "international", 
+      "perspective": "international-middle-east",
+      "reliability_score": 7.5,
+      "update_frequency": "30min"
+    }
+  ],
+  "premium_api_sources": {
+    "newsapi": {
+      "endpoint": "https://newsapi.org/v2/top-headlines",
+      "countries": ["us", "gb", "ca", "au"],
+      "categories": ["general", "politics", "business", "technology"],
+      "max_articles": 100
+    },
+    "reuters_api": {
+      "endpoint": "https://api.reuters.com/",
+      "categories": ["topNews", "worldNews", "politics", "business"],
+      "max_articles": 50
+    },
+    "ap_news_api": {
+      "endpoint": "https://api.ap.org/",
+      "categories": ["breaking", "politics", "international"],
+      "max_articles": 50
+    }
+  },
+  "perspective_mapping": {
+    "center-wire": "Neutral wire service",
+    "center-international": "International neutral perspective",
+    "center-left": "Slight left-leaning perspective",
+    "center-right": "Slight right-leaning perspective", 
+    "left-international": "International left-leaning perspective",
+    "international-middle-east": "Middle Eastern international perspective"
+  },
+  "category_priorities": {
+    "breaking": 10,
+    "international": 8,
+    "national": 7,
+    "politics": 6,
+    "business": 5,
+    "technology": 4
+  }
+}
