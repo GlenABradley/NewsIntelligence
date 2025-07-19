@@ -14,8 +14,8 @@ from pathlib import Path
 # from reportlab.lib.pagesizes import letter
 # from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 
-from ..models.news_models import StoryCluster, NewsAnalysis, DailyReport
-from ..core.config import settings
+from models.news_models import StoryCluster, NewsAnalysis, DailyReport
+from core.config import settings
 
 logger = logging.getLogger(__name__)
 

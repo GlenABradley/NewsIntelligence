@@ -10,8 +10,8 @@ import json
 import logging
 from pathlib import Path
 
-from ..services.report_generator import JournalistReportGenerator
-from ..core.config import settings
+from services.report_generator import JournalistReportGenerator
+from core.config import settings
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/reports", tags=["reports"])

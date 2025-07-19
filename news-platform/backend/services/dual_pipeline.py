@@ -12,7 +12,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from textblob import TextBlob
 import re
 
-from ..models.news_models import NewsArticle, StoryCluster, FactualClaim, EmotionalClaim, NewsAnalysis
+from models.news_models import NewsArticle, StoryCluster, FactualClaim, EmotionalClaim, NewsAnalysis
 
 logger = logging.getLogger(__name__)
 

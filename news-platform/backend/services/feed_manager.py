@@ -12,9 +12,9 @@ import re
 from bs4 import BeautifulSoup
 import logging
 
-from ..core.config import settings, FREE_NEWS_SOURCES
-from ..models.news_models import NewsArticle
-from ..utils.content_extractor import ContentExtractor
+from core.config import settings, FREE_NEWS_SOURCES
+from models.news_models import NewsArticle
+from utils.content_extractor import ContentExtractor
 
 logger = logging.getLogger(__name__)
 

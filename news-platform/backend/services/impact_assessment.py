@@ -7,7 +7,7 @@ from typing import List, Dict, Optional, Any
 from datetime import datetime
 import logging
 
-from ..models.news_models import NewsArticle, StoryCluster
+from models.news_models import NewsArticle, StoryCluster
 
 logger = logging.getLogger(__name__)
 

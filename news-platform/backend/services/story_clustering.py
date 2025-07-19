@@ -8,7 +8,7 @@ from datetime import datetime
 import hashlib
 import logging
 
-from ..models.news_models import NewsArticle, StoryCluster
+from models.news_models import NewsArticle, StoryCluster
 
 logger = logging.getLogger(__name__)
 
