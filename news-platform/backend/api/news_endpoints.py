@@ -205,7 +205,7 @@ async def get_feeds_config():
 async def test_content_extraction(url: str = Query(..., description="URL to test content extraction")):
     """Test content extraction from a specific URL"""
     try:
-        from ..utils.content_extractor import ContentExtractor
+        from utils.content_extractor import ContentExtractor
         
         extractor = ContentExtractor()
         content = await extractor.extract_content(url)
