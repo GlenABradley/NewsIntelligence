@@ -11,7 +11,7 @@ from datetime import datetime
 from typing import Dict, List, Any
 
 class TruthDetectorAPITester:
-    def __init__(self, base_url: str = "https://4a57022f-23c1-49d4-8982-4bc6479ce907.preview.emergentagent.com"):
+    def __init__(self, base_url: str = "https://c469af75-54a2-48bf-9ce0-2fab0541c0bb.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.tests_run = 0
